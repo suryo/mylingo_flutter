@@ -11,19 +11,24 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 2), checkFirstLaunch);
+    Future.delayed(Duration(seconds: 2), checkFirstLaunch);
   }
 
-  Future<void> checkFirstLaunch() async {
-    final prefs = await SharedPreferences.getInstance();
-    final isRegistered = prefs.getBool('isRegistered') ?? false;
+Future<void> checkFirstLaunch() async {
+  final prefs = await SharedPreferences.getInstance();
 
-    if (isRegistered) {
-      Navigator.pushReplacementNamed(context, '/login');
-    } else {
-      Navigator.pushReplacementNamed(context, '/register');
-    }
+  final isRegistered = prefs.getBool('isRegistered') ?? false;
+  final isLoggedIn = prefs.getBool('isLoggedIn') ?? false;
+
+  if (!isRegistered) {
+    Navigator.pushReplacementNamed(context, '/register');
+  } else if (!isLoggedIn) {
+    Navigator.pushReplacementNamed(context, '/login');
+  } else {
+    Navigator.pushReplacementNamed(context, '/dashboard');
   }
+}
+
 
   @override
   Widget build(BuildContext context) {
