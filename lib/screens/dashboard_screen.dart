@@ -47,15 +47,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
     if (available) {
       _speech.listen(
         onResult: (result) async {
+          // Tangani hanya jika hasil sudah final
+          if (!result.finalResult) return;
 
-          // if (_hasSpoken) return; // batasi 1x proses per kata
-
-          // setState(() {
-          //   _recognizedText = result.recognizedWords;
-          // });
-
-
-          if (_hasSpokenCorrectly) return;
+          if (_hasSpoken) return;
 
           setState(() {
             _recognizedText = result.recognizedWords;
@@ -76,12 +71,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
           if (spoken == target) {
             _hasSpokenCorrectly = true;
-            _speech.stop();
-            _nextWord();
+            await _playSound('ding.mp3');
+            Future.delayed(Duration(milliseconds: 500), () {
+              _nextWord();
+            });
           } else {
-            _playSound('tetot.mp3'); // suara salah
+            await _playSound('tetot.mp3');
           }
         },
+        localeId: 'en_US', // opsional jika ingin paksa English
       );
     }
   }
