@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'screens/splash_screen.dart';
 import 'screens/login_screen.dart';
-import 'screens/dashboard_screen.dart'; // ← Tambahkan ini
-
+import 'screens/register_screen.dart';
+import 'screens/dashboard_screen.dart';
 
 void main() {
   runApp(MyLingoApp());
@@ -11,17 +12,14 @@ class MyLingoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'MyLingo Prototype',
+      title: 'MyLingo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-        scaffoldBackgroundColor: Colors.white,
-      ),
-      initialRoute: '/login',
+      initialRoute: '/',
       routes: {
+        '/': (context) => SplashScreen(),
+        '/register': (context) => RegisterScreen(),
         '/login': (context) => LoginScreen(),
-        // '/register': (context) => RegisterScreen(), // disiapkan nanti
-        '/dashboard': (context) => DashboardScreen(), // disiapkan nanti
+        '/dashboard': (context) => DashboardScreen(),
       },
     );
   }
