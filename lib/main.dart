@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/login_screen.dart';
+import 'screens/dashboard_screen.dart'; // ← Tambahkan ini
+
 
 void main() {
   runApp(MyLingoApp());
@@ -19,7 +21,7 @@ class MyLingoApp extends StatelessWidget {
       routes: {
         '/login': (context) => LoginScreen(),
         // '/register': (context) => RegisterScreen(), // disiapkan nanti
-        // '/dashboard': (context) => DashboardScreen(), // disiapkan nanti
+        '/dashboard': (context) => DashboardScreen(), // disiapkan nanti
       },
     );
   }
