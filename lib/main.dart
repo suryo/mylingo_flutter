@@ -6,6 +6,7 @@ import 'screens/dashboard_screen.dart';
 import 'screens/intro_screen.dart';
 import 'screens/choose_level_screen.dart';
 import 'screens/choose_theme_screen.dart';
+import 'screens/learning_screen.dart';
 
 void main() {
   runApp(MyLingoApp());
@@ -23,9 +24,22 @@ class MyLingoApp extends StatelessWidget {
         '/register': (context) => RegisterScreen(),
         '/login': (context) => LoginScreen(),
         '/dashboard': (context) => DashboardScreen(),
-        '/intro': (context) => IntroScreen(), // (next)
-        '/choose-theme': (context) => ChooseThemeScreen(), // (next)
-        '/choose-level': (context) => ChooseLevelScreen(), // (next)
+        '/intro': (context) => IntroScreen(),
+        '/choose-theme': (context) => ChooseThemeScreen(),
+        '/choose-level': (context) => ChooseLevelScreen(),
+      },
+      // ⬇️ Untuk route yang butuh parameter
+      onGenerateRoute: (settings) {
+        if (settings.name == '/learning') {
+          final args = settings.arguments as Map<String, dynamic>;
+          return MaterialPageRoute(
+            builder: (context) => LearningScreen(
+              filename: args['filename'],
+              level: args['level'],
+            ),
+          );
+        }
+        return null;
       },
     );
   }
