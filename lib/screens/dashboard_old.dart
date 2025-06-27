@@ -12,7 +12,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
   int _currentIndex = 0;
   String _recognizedText = '';
   bool _isListening = false;
-  bool _hasSpoken = false;
   bool _hasSpokenCorrectly = false;
 
   late stt.SpeechToText _speech;
@@ -24,17 +23,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
     _speech = stt.SpeechToText();
   }
 
-  Future<void> _playSound(String filename) async {
-    await _audioPlayer.play(AssetSource('sounds/$filename'));
+  void _playWrongSound() async {
+    await _audioPlayer.play(AssetSource('sounds/tetot.mp3'));
   }
 
-  Future<void> _startListening() async {
-    setState(() {
-      _hasSpoken = false;
-    });
-
-    await _playSound('bip.mp3'); // Bunyi awal
-
+  void _startListening() async {
     bool available = await _speech.initialize(
       onStatus: (status) {
         setState(() {
@@ -46,15 +39,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
     if (available) {
       _speech.listen(
-        onResult: (result) async {
-
-          // if (_hasSpoken) return; // batasi 1x proses per kata
-
-          // setState(() {
-          //   _recognizedText = result.recognizedWords;
-          // });
-
-
+        onResult: (result) {
           if (_hasSpokenCorrectly) return;
 
           setState(() {
@@ -64,22 +49,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
           String spoken = _recognizedText.toLowerCase().trim();
           String target = _words[_currentIndex].toLowerCase();
 
-          print(
-            '=================================recognized: "$spoken"=================================',
-          );
-          print(
-            '=================================target: "$target"=================================',
-          );
-
-          _speech.stop();
-          _hasSpoken = true;
-
           if (spoken == target) {
             _hasSpokenCorrectly = true;
             _speech.stop();
             _nextWord();
           } else {
-            _playSound('tetot.mp3'); // suara salah
+            _playWrongSound();
           }
         },
       );
@@ -98,7 +73,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       setState(() {
         _currentIndex++;
         _recognizedText = '';
-        _hasSpoken = false;
+        _hasSpokenCorrectly = false;
       });
     } else {
       _showFinishDialog();
@@ -119,7 +94,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
               setState(() {
                 _currentIndex = 0;
                 _recognizedText = '';
-                _hasSpoken = false;
+                _hasSpokenCorrectly = false;
               });
             },
           ),
@@ -164,8 +139,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
               _recognizedText,
               style: TextStyle(
                 fontSize: 20,
-                color:
-                    _recognizedText.toLowerCase().trim() ==
+                color: _recognizedText.toLowerCase().trim() ==
                         targetWord.toLowerCase()
                     ? Colors.green
                     : Colors.red,

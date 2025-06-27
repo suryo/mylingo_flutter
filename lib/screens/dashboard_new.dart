@@ -13,7 +13,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
   String _recognizedText = '';
   bool _isListening = false;
   bool _hasSpoken = false;
-  bool _hasSpokenCorrectly = false;
 
   late stt.SpeechToText _speech;
   final AudioPlayer _audioPlayer = AudioPlayer();
@@ -47,39 +46,25 @@ class _DashboardScreenState extends State<DashboardScreen> {
     if (available) {
       _speech.listen(
         onResult: (result) async {
-
-          // if (_hasSpoken) return; // batasi 1x proses per kata
-
-          // setState(() {
-          //   _recognizedText = result.recognizedWords;
-          // });
-
-
-          if (_hasSpokenCorrectly) return;
+          if (_hasSpoken) return; // batasi 1x proses per kata
 
           setState(() {
             _recognizedText = result.recognizedWords;
           });
 
-          String spoken = _recognizedText.toLowerCase().trim();
-          String target = _words[_currentIndex].toLowerCase();
-
-          print(
-            '=================================recognized: "$spoken"=================================',
-          );
-          print(
-            '=================================target: "$target"=================================',
-          );
+          final input = _recognizedText.toLowerCase().trim();
+          final target = _words[_currentIndex].toLowerCase();
 
           _speech.stop();
           _hasSpoken = true;
 
-          if (spoken == target) {
-            _hasSpokenCorrectly = true;
-            _speech.stop();
-            _nextWord();
+          if (input == target) {
+            await _playSound('ding.mp3'); // suara benar
+            Future.delayed(Duration(milliseconds: 500), () {
+              _nextWord();
+            });
           } else {
-            _playSound('tetot.mp3'); // suara salah
+            await _playSound('tetot.mp3'); // suara salah
           }
         },
       );
@@ -164,8 +149,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
               _recognizedText,
               style: TextStyle(
                 fontSize: 20,
-                color:
-                    _recognizedText.toLowerCase().trim() ==
+                color: _recognizedText.toLowerCase().trim() ==
                         targetWord.toLowerCase()
                     ? Colors.green
                     : Colors.red,
