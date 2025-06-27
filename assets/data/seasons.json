@@ -1,0 +1,144 @@
+{
+  "theme": "Seasons",
+  "description": "Belajar tentang musim-musim dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Spring",
+          "word": "spring",
+          "ipa": "/spr\u026a\u014b/",
+          "image": "assets/images/seasons/spring.png",
+          "audio_prompt": "Say: spring"
+        },
+        {
+          "title": "Summer",
+          "word": "summer",
+          "ipa": "/\u02c8s\u028cm.\u0259r/",
+          "image": "assets/images/seasons/summer.png",
+          "audio_prompt": "Say: summer"
+        },
+        {
+          "title": "Autumn",
+          "word": "autumn",
+          "ipa": "/\u02c8\u0254\u02d0.t\u0259m/",
+          "image": "assets/images/seasons/autumn.png",
+          "audio_prompt": "Say: autumn"
+        },
+        {
+          "title": "Winter",
+          "word": "winter",
+          "ipa": "/\u02c8w\u026an.t\u0259r/",
+          "image": "assets/images/seasons/winter.png",
+          "audio_prompt": "Say: winter"
+        },
+        {
+          "title": "Rainy",
+          "word": "rainy",
+          "ipa": "/\u02c8re\u026a.ni/",
+          "image": "assets/images/seasons/rainy.png",
+          "audio_prompt": "Say: rainy"
+        },
+        {
+          "title": "Sunny",
+          "word": "sunny",
+          "ipa": "/\u02c8s\u028cn.i/",
+          "image": "assets/images/seasons/sunny.png",
+          "audio_prompt": "Say: sunny"
+        },
+        {
+          "title": "Cloudy",
+          "word": "cloudy",
+          "ipa": "/\u02c8kla\u028a.di/",
+          "image": "assets/images/seasons/cloudy.png",
+          "audio_prompt": "Say: cloudy"
+        },
+        {
+          "title": "Windy",
+          "word": "windy",
+          "ipa": "/\u02c8w\u026an.di/",
+          "image": "assets/images/seasons/windy.png",
+          "audio_prompt": "Say: windy"
+        },
+        {
+          "title": "Snowy",
+          "word": "snowy",
+          "ipa": "/\u02c8sn\u0259\u028a.i/",
+          "image": "assets/images/seasons/snowy.png",
+          "audio_prompt": "Say: snowy"
+        },
+        {
+          "title": "Stormy",
+          "word": "stormy",
+          "ipa": "/\u02c8st\u0254\u02d0.mi/",
+          "image": "assets/images/seasons/stormy.png",
+          "audio_prompt": "Say: stormy"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "It\u2019s sunny in summer",
+          "translation": "Cuacanya cerah di musim panas",
+          "ipa": "/\u026ats \u02c8s\u028cn.i \u026an \u02c8s\u028cm.\u0259r/"
+        },
+        {
+          "sentence": "It snows in winter",
+          "translation": "Turun salju di musim dingin",
+          "ipa": "/\u026at sn\u0259\u028az \u026an \u02c8w\u026an.t\u0259r/"
+        },
+        {
+          "sentence": "Spring is my favorite season",
+          "translation": "Musim semi adalah musim favorit saya",
+          "ipa": "/spr\u026a\u014b \u026az ma\u026a \u02c8fe\u026a.v\u0259r.\u026at \u02c8si\u02d0.z\u0259n/"
+        },
+        {
+          "sentence": "It\u2019s rainy and cloudy",
+          "translation": "Cuacanya hujan dan berawan",
+          "ipa": "/\u026ats \u02c8re\u026a.ni \u0259nd \u02c8kla\u028a.di/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What season do you like?",
+          "ipa": "/w\u0252t \u02c8si\u02d0.z\u0259n du\u02d0 ju\u02d0 la\u026ak/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I like winter because I love snow.",
+          "ipa": "/a\u026a la\u026ak \u02c8w\u026an.t\u0259r b\u026a\u02c8k\u0252z a\u026a l\u028cv sn\u0259\u028a/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Is it hot in summer?",
+          "ipa": "/\u026az \u026at h\u0252t \u026an \u02c8s\u028cm.\u0259r/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, very hot!",
+          "ipa": "/j\u025bs \u02c8ve.ri h\u0252t/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "What\u2019s the weather like in autumn?",
+          "ipa": "/w\u0252ts \u00f0\u0259 \u02c8we\u00f0.\u0259r la\u026ak \u026an \u02c8\u0254\u02d0.t\u0259m/"
+        },
+        {
+          "speaker": "You",
+          "text": "It\u2019s cool and windy.",
+          "ipa": "/\u026ats ku\u02d0l \u0259nd \u02c8w\u026an.di/"
+        }
+      ]
+    }
+  ]
+}

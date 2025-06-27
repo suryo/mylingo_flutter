@@ -1,0 +1,144 @@
+{
+  "theme": "Hobbies",
+  "description": "Belajar tentang hobi dan aktivitas favorit dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Reading",
+          "word": "reading",
+          "ipa": "/\u02c8ri\u02d0.d\u026a\u014b/",
+          "image": "assets/images/hobbies/reading.png",
+          "audio_prompt": "Say: reading"
+        },
+        {
+          "title": "Drawing",
+          "word": "drawing",
+          "ipa": "/\u02c8dr\u0254\u02d0.\u026a\u014b/",
+          "image": "assets/images/hobbies/drawing.png",
+          "audio_prompt": "Say: drawing"
+        },
+        {
+          "title": "Singing",
+          "word": "singing",
+          "ipa": "/\u02c8s\u026a\u014b.\u026a\u014b/",
+          "image": "assets/images/hobbies/singing.png",
+          "audio_prompt": "Say: singing"
+        },
+        {
+          "title": "Dancing",
+          "word": "dancing",
+          "ipa": "/\u02c8d\u0251\u02d0n.s\u026a\u014b/",
+          "image": "assets/images/hobbies/dancing.png",
+          "audio_prompt": "Say: dancing"
+        },
+        {
+          "title": "Swimming",
+          "word": "swimming",
+          "ipa": "/\u02c8sw\u026am.\u026a\u014b/",
+          "image": "assets/images/hobbies/swimming.png",
+          "audio_prompt": "Say: swimming"
+        },
+        {
+          "title": "Cooking",
+          "word": "cooking",
+          "ipa": "/\u02c8k\u028ak.\u026a\u014b/",
+          "image": "assets/images/hobbies/cooking.png",
+          "audio_prompt": "Say: cooking"
+        },
+        {
+          "title": "Playing games",
+          "word": "playing games",
+          "ipa": "/\u02c8ple\u026a.\u026a\u014b \u0261e\u026amz/",
+          "image": "assets/images/hobbies/playing_games.png",
+          "audio_prompt": "Say: playing games"
+        },
+        {
+          "title": "Watching TV",
+          "word": "watching TV",
+          "ipa": "/\u02c8w\u0252t\u0283.\u026a\u014b \u02ccti\u02d0\u02c8vi\u02d0/",
+          "image": "assets/images/hobbies/watching_tv.png",
+          "audio_prompt": "Say: watching TV"
+        },
+        {
+          "title": "Cycling",
+          "word": "cycling",
+          "ipa": "/\u02c8sa\u026a.kl\u026a\u014b/",
+          "image": "assets/images/hobbies/cycling.png",
+          "audio_prompt": "Say: cycling"
+        },
+        {
+          "title": "Fishing",
+          "word": "fishing",
+          "ipa": "/\u02c8f\u026a\u0283.\u026a\u014b/",
+          "image": "assets/images/hobbies/fishing.png",
+          "audio_prompt": "Say: fishing"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I like drawing in my free time",
+          "translation": "Saya suka menggambar di waktu luang",
+          "ipa": "/a\u026a la\u026ak \u02c8dr\u0254\u02d0.\u026a\u014b \u026an ma\u026a fri\u02d0 ta\u026am/"
+        },
+        {
+          "sentence": "She enjoys reading books",
+          "translation": "Dia senang membaca buku",
+          "ipa": "/\u0283i\u02d0 \u026an\u02c8d\u0292\u0254\u026az \u02c8ri\u02d0.d\u026a\u014b b\u028aks/"
+        },
+        {
+          "sentence": "We are swimming at the pool",
+          "translation": "Kami sedang berenang di kolam",
+          "ipa": "/wi\u02d0 \u0251\u02d0 \u02c8sw\u026am.\u026a\u014b \u00e6t \u00f0\u0259 pu\u02d0l/"
+        },
+        {
+          "sentence": "He watches TV every evening",
+          "translation": "Dia menonton TV setiap malam",
+          "ipa": "/hi\u02d0 \u02c8w\u0252t\u0283.\u026az \u02ccti\u02d0\u02c8vi\u02d0 \u02c8ev.ri \u02c8i\u02d0v.n\u026a\u014b/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Friend",
+          "text": "What is your hobby?",
+          "ipa": "/w\u0252t \u026az j\u0254\u02d0 \u02c8h\u0252b.i/"
+        },
+        {
+          "speaker": "You",
+          "text": "My hobby is swimming.",
+          "ipa": "/ma\u026a \u02c8h\u0252b.i \u026az \u02c8sw\u026am.\u026a\u014b/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Do you like playing games?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak \u02c8ple\u026a.\u026a\u014b \u0261e\u026amz/"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I love them!",
+          "ipa": "/j\u025bs a\u026a l\u028cv \u00f0\u0259m/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "What do you do on weekends?",
+          "ipa": "/w\u0252t du\u02d0 ju\u02d0 du\u02d0 \u0252n \u02c8wi\u02d0k.endz/"
+        },
+        {
+          "speaker": "Child",
+          "text": "I go fishing with dad.",
+          "ipa": "/a\u026a \u0261\u0259\u028a \u02c8f\u026a\u0283.\u026a\u014b w\u026a\u00f0 d\u00e6d/"
+        }
+      ]
+    }
+  ]
+}

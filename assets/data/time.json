@@ -1,0 +1,144 @@
+{
+  "theme": "Time",
+  "description": "Belajar tentang waktu dan jam dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Morning",
+          "word": "morning",
+          "ipa": "/\u02c8m\u0254\u02d0.n\u026a\u014b/",
+          "image": "assets/images/time/morning.png",
+          "audio_prompt": "Say: morning"
+        },
+        {
+          "title": "Afternoon",
+          "word": "afternoon",
+          "ipa": "/\u02cc\u0251\u02d0f.t\u0259\u02c8nu\u02d0n/",
+          "image": "assets/images/time/afternoon.png",
+          "audio_prompt": "Say: afternoon"
+        },
+        {
+          "title": "Evening",
+          "word": "evening",
+          "ipa": "/\u02c8i\u02d0v.n\u026a\u014b/",
+          "image": "assets/images/time/evening.png",
+          "audio_prompt": "Say: evening"
+        },
+        {
+          "title": "Night",
+          "word": "night",
+          "ipa": "/na\u026at/",
+          "image": "assets/images/time/night.png",
+          "audio_prompt": "Say: night"
+        },
+        {
+          "title": "O\u2019clock",
+          "word": "o\u2019clock",
+          "ipa": "/\u0259\u02c8kl\u0252k/",
+          "image": "assets/images/time/oclock.png",
+          "audio_prompt": "Say: o'clock"
+        },
+        {
+          "title": "Hour",
+          "word": "hour",
+          "ipa": "/\u02c8a\u028a\u0259r/",
+          "image": "assets/images/time/hour.png",
+          "audio_prompt": "Say: hour"
+        },
+        {
+          "title": "Minute",
+          "word": "minute",
+          "ipa": "/\u02c8m\u026an.\u026at/",
+          "image": "assets/images/time/minute.png",
+          "audio_prompt": "Say: minute"
+        },
+        {
+          "title": "Second",
+          "word": "second",
+          "ipa": "/\u02c8sek.\u0259nd/",
+          "image": "assets/images/time/second.png",
+          "audio_prompt": "Say: second"
+        },
+        {
+          "title": "Day",
+          "word": "day",
+          "ipa": "/de\u026a/",
+          "image": "assets/images/time/day.png",
+          "audio_prompt": "Say: day"
+        },
+        {
+          "title": "Week",
+          "word": "week",
+          "ipa": "/wi\u02d0k/",
+          "image": "assets/images/time/week.png",
+          "audio_prompt": "Say: week"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "It\u2019s seven o\u2019clock",
+          "translation": "Sekarang jam tujuh",
+          "ipa": "/\u026ats \u02c8sev.\u0259n \u0259\u02c8kl\u0252k/"
+        },
+        {
+          "sentence": "I wake up at six",
+          "translation": "Saya bangun jam enam",
+          "ipa": "/a\u026a we\u026ak \u028cp \u00e6t s\u026aks/"
+        },
+        {
+          "sentence": "She goes to bed at nine",
+          "translation": "Dia tidur jam sembilan",
+          "ipa": "/\u0283i\u02d0 \u0261\u0259\u028az tu\u02d0 bed \u00e6t na\u026an/"
+        },
+        {
+          "sentence": "We eat lunch at twelve",
+          "translation": "Kami makan siang jam dua belas",
+          "ipa": "/wi\u02d0 i\u02d0t l\u028cnt\u0283 \u00e6t tw\u025blv/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What time is it?",
+          "ipa": "/w\u0252t ta\u026am \u026az \u026at/"
+        },
+        {
+          "speaker": "Student",
+          "text": "It\u2019s five thirty.",
+          "ipa": "/\u026ats fa\u026av \u02c8\u03b8\u025c\u02d0.ti/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "When do you go to school?",
+          "ipa": "/wen du\u02d0 ju\u02d0 \u0261\u0259\u028a tu\u02d0 sku\u02d0l/"
+        },
+        {
+          "speaker": "You",
+          "text": "I go to school at seven.",
+          "ipa": "/a\u026a \u0261\u0259\u028a tu\u02d0 sku\u02d0l \u00e6t \u02c8sev.\u0259n/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Is it lunchtime now?",
+          "ipa": "/\u026az \u026at \u02c8l\u028cnt\u0283.ta\u026am na\u028a/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, I\u2019m hungry!",
+          "ipa": "/j\u025bs a\u026am \u02c8h\u028c\u014b.\u0261ri/"
+        }
+      ]
+    }
+  ]
+}

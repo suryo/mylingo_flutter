@@ -1,0 +1,144 @@
+{
+  "theme": "Weather",
+  "description": "Belajar tentang kondisi cuaca dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Sunny",
+          "word": "sunny",
+          "ipa": "/\u02c8s\u028cn.i/",
+          "image": "assets/images/weather/sunny.png",
+          "audio_prompt": "Say: sunny"
+        },
+        {
+          "title": "Rainy",
+          "word": "rainy",
+          "ipa": "/\u02c8re\u026a.ni/",
+          "image": "assets/images/weather/rainy.png",
+          "audio_prompt": "Say: rainy"
+        },
+        {
+          "title": "Cloudy",
+          "word": "cloudy",
+          "ipa": "/\u02c8kla\u028a.di/",
+          "image": "assets/images/weather/cloudy.png",
+          "audio_prompt": "Say: cloudy"
+        },
+        {
+          "title": "Windy",
+          "word": "windy",
+          "ipa": "/\u02c8w\u026an.di/",
+          "image": "assets/images/weather/windy.png",
+          "audio_prompt": "Say: windy"
+        },
+        {
+          "title": "Stormy",
+          "word": "stormy",
+          "ipa": "/\u02c8st\u0254\u02d0.mi/",
+          "image": "assets/images/weather/stormy.png",
+          "audio_prompt": "Say: stormy"
+        },
+        {
+          "title": "Snowy",
+          "word": "snowy",
+          "ipa": "/\u02c8sn\u0259\u028a.i/",
+          "image": "assets/images/weather/snowy.png",
+          "audio_prompt": "Say: snowy"
+        },
+        {
+          "title": "Hot",
+          "word": "hot",
+          "ipa": "/h\u0252t/",
+          "image": "assets/images/weather/hot.png",
+          "audio_prompt": "Say: hot"
+        },
+        {
+          "title": "Cold",
+          "word": "cold",
+          "ipa": "/k\u0259\u028ald/",
+          "image": "assets/images/weather/cold.png",
+          "audio_prompt": "Say: cold"
+        },
+        {
+          "title": "Foggy",
+          "word": "foggy",
+          "ipa": "/\u02c8f\u0252\u0261.i/",
+          "image": "assets/images/weather/foggy.png",
+          "audio_prompt": "Say: foggy"
+        },
+        {
+          "title": "Humid",
+          "word": "humid",
+          "ipa": "/\u02c8hju\u02d0.m\u026ad/",
+          "image": "assets/images/weather/humid.png",
+          "audio_prompt": "Say: humid"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "It is sunny today",
+          "translation": "Hari ini cerah",
+          "ipa": "/\u026at \u026az \u02c8s\u028cn.i t\u0259\u02c8de\u026a/"
+        },
+        {
+          "sentence": "The weather is rainy",
+          "translation": "Cuacanya hujan",
+          "ipa": "/\u00f0\u0259 \u02c8we\u00f0.\u0259r \u026az \u02c8re\u026a.ni/"
+        },
+        {
+          "sentence": "It is very cold",
+          "translation": "Sangat dingin",
+          "ipa": "/\u026at \u026az \u02c8ver.i k\u0259\u028ald/"
+        },
+        {
+          "sentence": "It is hot outside",
+          "translation": "Panas di luar",
+          "ipa": "/\u026at \u026az h\u0252t \u02c8a\u028at.sa\u026ad/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Mom",
+          "text": "How\u2019s the weather?",
+          "ipa": "/ha\u028az \u00f0\u0259 \u02c8we\u00f0.\u0259r/"
+        },
+        {
+          "speaker": "Child",
+          "text": "It\u2019s rainy and cold.",
+          "ipa": "/\u026ats \u02c8re\u026a.ni \u0259nd k\u0259\u028ald/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Is it sunny today?",
+          "ipa": "/\u026az \u026at \u02c8s\u028cn.i t\u0259\u02c8de\u026a/"
+        },
+        {
+          "speaker": "Student",
+          "text": "No, it is cloudy.",
+          "ipa": "/n\u0259\u028a \u026at \u026az \u02c8kla\u028a.di/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Let\u2019s go outside!",
+          "ipa": "/l\u025bts \u0261\u0259\u028a \u02c8a\u028at.sa\u026ad/"
+        },
+        {
+          "speaker": "You",
+          "text": "No, it\u2019s too hot.",
+          "ipa": "/n\u0259\u028a \u026ats tu\u02d0 h\u0252t/"
+        }
+      ]
+    }
+  ]
+}

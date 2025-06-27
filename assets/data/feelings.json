@@ -1,0 +1,144 @@
+{
+  "theme": "Feelings",
+  "description": "Belajar kosakata tentang perasaan dan emosi dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Happy",
+          "word": "happy",
+          "ipa": "/\u02c8h\u00e6p.i/",
+          "image": "assets/images/feelings/happy.png",
+          "audio_prompt": "Say: happy"
+        },
+        {
+          "title": "Sad",
+          "word": "sad",
+          "ipa": "/s\u00e6d/",
+          "image": "assets/images/feelings/sad.png",
+          "audio_prompt": "Say: sad"
+        },
+        {
+          "title": "Angry",
+          "word": "angry",
+          "ipa": "/\u02c8\u00e6\u014b.\u0261ri/",
+          "image": "assets/images/feelings/angry.png",
+          "audio_prompt": "Say: angry"
+        },
+        {
+          "title": "Scared",
+          "word": "scared",
+          "ipa": "/ske\u0259d/",
+          "image": "assets/images/feelings/scared.png",
+          "audio_prompt": "Say: scared"
+        },
+        {
+          "title": "Excited",
+          "word": "excited",
+          "ipa": "/\u026ak\u02c8sa\u026a.t\u026ad/",
+          "image": "assets/images/feelings/excited.png",
+          "audio_prompt": "Say: excited"
+        },
+        {
+          "title": "Tired",
+          "word": "tired",
+          "ipa": "/\u02c8ta\u026a\u0259d/",
+          "image": "assets/images/feelings/tired.png",
+          "audio_prompt": "Say: tired"
+        },
+        {
+          "title": "Bored",
+          "word": "bored",
+          "ipa": "/b\u0254\u02d0d/",
+          "image": "assets/images/feelings/bored.png",
+          "audio_prompt": "Say: bored"
+        },
+        {
+          "title": "Surprised",
+          "word": "surprised",
+          "ipa": "/s\u0259\u02c8pra\u026azd/",
+          "image": "assets/images/feelings/surprised.png",
+          "audio_prompt": "Say: surprised"
+        },
+        {
+          "title": "Nervous",
+          "word": "nervous",
+          "ipa": "/\u02c8n\u025c\u02d0.v\u0259s/",
+          "image": "assets/images/feelings/nervous.png",
+          "audio_prompt": "Say: nervous"
+        },
+        {
+          "title": "Proud",
+          "word": "proud",
+          "ipa": "/pra\u028ad/",
+          "image": "assets/images/feelings/proud.png",
+          "audio_prompt": "Say: proud"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I feel happy today",
+          "translation": "Saya merasa senang hari ini",
+          "ipa": "/a\u026a fi\u02d0l \u02c8h\u00e6p.i t\u0259\u02c8de\u026a/"
+        },
+        {
+          "sentence": "She looks sad",
+          "translation": "Dia terlihat sedih",
+          "ipa": "/\u0283i\u02d0 l\u028aks s\u00e6d/"
+        },
+        {
+          "sentence": "He is very angry",
+          "translation": "Dia sangat marah",
+          "ipa": "/hi\u02d0 \u026az \u02c8ver.i \u02c8\u00e6\u014b.\u0261ri/"
+        },
+        {
+          "sentence": "They are excited",
+          "translation": "Mereka sangat bersemangat",
+          "ipa": "/\u00f0e\u026a \u0251\u02d0r \u026ak\u02c8sa\u026a.t\u026ad/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Mom",
+          "text": "Are you sad?",
+          "ipa": "/\u0251\u02d0 ju\u02d0 s\u00e6d/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, I am sad.",
+          "ipa": "/j\u025bs a\u026a \u00e6m s\u00e6d/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Why are you angry?",
+          "ipa": "/wa\u026a \u0251\u02d0 ju\u02d0 \u02c8\u00e6\u014b.\u0261ri/"
+        },
+        {
+          "speaker": "Student",
+          "text": "Because I lost my toy.",
+          "ipa": "/b\u026a\u02c8k\u0259z a\u026a l\u0252st ma\u026a t\u0254\u026a/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "You look happy!",
+          "ipa": "/ju\u02d0 l\u028ak \u02c8h\u00e6p.i/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yes, I won a prize!",
+          "ipa": "/j\u025bs a\u026a w\u028cn \u0259 pra\u026az/"
+        }
+      ]
+    }
+  ]
+}

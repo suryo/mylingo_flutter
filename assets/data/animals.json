@@ -1,0 +1,134 @@
+{
+  "theme": "Animals",
+  "description": "Belajar nama-nama hewan dalam Bahasa Inggris melalui kata, frasa, dan dialog sederhana.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Cat",
+          "word": "cat",
+          "ipa": "/k\u00e6t/",
+          "image": "assets/images/animals/cat.png",
+          "audio_prompt": "Say: cat"
+        },
+        {
+          "title": "Dog",
+          "word": "dog",
+          "ipa": "/d\u0254\u02d0\u0261/",
+          "image": "assets/images/animals/dog.png",
+          "audio_prompt": "Say: dog"
+        },
+        {
+          "title": "Cow",
+          "word": "cow",
+          "ipa": "/ka\u028a/",
+          "image": "assets/images/animals/cow.png",
+          "audio_prompt": "Say: cow"
+        },
+        {
+          "title": "Horse",
+          "word": "horse",
+          "ipa": "/h\u0254\u02d0s/",
+          "image": "assets/images/animals/horse.png",
+          "audio_prompt": "Say: horse"
+        },
+        {
+          "title": "Elephant",
+          "word": "elephant",
+          "ipa": "/\u02c8\u025bl.\u026a.f\u0259nt/",
+          "image": "assets/images/animals/elephant.png",
+          "audio_prompt": "Say: elephant"
+        },
+        {
+          "title": "Duck",
+          "word": "duck",
+          "ipa": "/d\u028ck/",
+          "image": "assets/images/animals/duck.png",
+          "audio_prompt": "Say: duck"
+        },
+        {
+          "title": "Lion",
+          "word": "lion",
+          "ipa": "/\u02c8la\u026a.\u0259n/",
+          "image": "assets/images/animals/lion.png",
+          "audio_prompt": "Say: lion"
+        },
+        {
+          "title": "Tiger",
+          "word": "tiger",
+          "ipa": "/\u02c8ta\u026a.\u0261\u0259r/",
+          "image": "assets/images/animals/tiger.png",
+          "audio_prompt": "Say: tiger"
+        },
+        {
+          "title": "Fish",
+          "word": "fish",
+          "ipa": "/f\u026a\u0283/",
+          "image": "assets/images/animals/fish.png",
+          "audio_prompt": "Say: fish"
+        },
+        {
+          "title": "Bird",
+          "word": "bird",
+          "ipa": "/b\u025c\u02d0d/",
+          "image": "assets/images/animals/bird.png",
+          "audio_prompt": "Say: bird"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "This is a cat",
+          "translation": "Ini seekor kucing",
+          "ipa": "/\u00f0\u026as \u026az \u0259 k\u00e6t/"
+        },
+        {
+          "sentence": "I see a dog",
+          "translation": "Saya melihat seekor anjing",
+          "ipa": "/a\u026a si\u02d0 \u0259 d\u0252\u0261/"
+        },
+        {
+          "sentence": "Look at the elephant",
+          "translation": "Lihat gajah itu",
+          "ipa": "/l\u028ak \u00e6t \u00f0i \u02c8\u025bl.\u026a.f\u0259nt/"
+        },
+        {
+          "sentence": "The bird is blue",
+          "translation": "Burung itu berwarna biru",
+          "ipa": "/\u00f0\u0259 b\u025c\u02d0d \u026az blu\u02d0/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What animal do you like?",
+          "ipa": "/w\u0252t \u02c8\u00e6n.\u026a.m\u0259l du\u02d0 ju\u02d0 la\u026ak/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I like the lion.",
+          "ipa": "/a\u026a la\u026ak \u00f0\u0259 \u02c8la\u026a.\u0259n/"
+        },
+        {
+          "speaker": "Friend 1",
+          "text": "What is that?",
+          "ipa": "/w\u0252t \u026az \u00f0\u00e6t/"
+        },
+        {
+          "speaker": "Friend 2",
+          "text": "It\u2019s a cow.",
+          "ipa": "/\u026ats \u0259 ka\u028a/"
+        }
+      ]
+    }
+  ]
+}

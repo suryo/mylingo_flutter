@@ -1,0 +1,158 @@
+{
+  "theme": "Months of the Year",
+  "description": "Belajar nama-nama bulan dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "January",
+          "word": "January",
+          "ipa": "/\u02c8d\u0292\u00e6n.ju.er.i/",
+          "image": "assets/images/months/january.png",
+          "audio_prompt": "Say: January"
+        },
+        {
+          "title": "February",
+          "word": "February",
+          "ipa": "/\u02c8feb.ru\u02d0.er.i/",
+          "image": "assets/images/months/february.png",
+          "audio_prompt": "Say: February"
+        },
+        {
+          "title": "March",
+          "word": "March",
+          "ipa": "/m\u0251\u02d0t\u0283/",
+          "image": "assets/images/months/march.png",
+          "audio_prompt": "Say: March"
+        },
+        {
+          "title": "April",
+          "word": "April",
+          "ipa": "/\u02c8e\u026a.pr\u0259l/",
+          "image": "assets/images/months/april.png",
+          "audio_prompt": "Say: April"
+        },
+        {
+          "title": "May",
+          "word": "May",
+          "ipa": "/me\u026a/",
+          "image": "assets/images/months/may.png",
+          "audio_prompt": "Say: May"
+        },
+        {
+          "title": "June",
+          "word": "June",
+          "ipa": "/d\u0292u\u02d0n/",
+          "image": "assets/images/months/june.png",
+          "audio_prompt": "Say: June"
+        },
+        {
+          "title": "July",
+          "word": "July",
+          "ipa": "/d\u0292u\u02d0\u02c8la\u026a/",
+          "image": "assets/images/months/july.png",
+          "audio_prompt": "Say: July"
+        },
+        {
+          "title": "August",
+          "word": "August",
+          "ipa": "/\u02c8\u0254\u02d0.\u0261\u0259st/",
+          "image": "assets/images/months/august.png",
+          "audio_prompt": "Say: August"
+        },
+        {
+          "title": "September",
+          "word": "September",
+          "ipa": "/sep\u02c8tem.b\u0259r/",
+          "image": "assets/images/months/september.png",
+          "audio_prompt": "Say: September"
+        },
+        {
+          "title": "October",
+          "word": "October",
+          "ipa": "/\u0252k\u02c8t\u0259\u028a.b\u0259r/",
+          "image": "assets/images/months/october.png",
+          "audio_prompt": "Say: October"
+        },
+        {
+          "title": "November",
+          "word": "November",
+          "ipa": "/n\u0259\u028a\u02c8vem.b\u0259r/",
+          "image": "assets/images/months/november.png",
+          "audio_prompt": "Say: November"
+        },
+        {
+          "title": "December",
+          "word": "December",
+          "ipa": "/d\u026a\u02c8sem.b\u0259r/",
+          "image": "assets/images/months/december.png",
+          "audio_prompt": "Say: December"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "My birthday is in March",
+          "translation": "Ulang tahunku di bulan Maret",
+          "ipa": "/ma\u026a \u02c8b\u025c\u02d0\u03b8.de\u026a \u026az \u026an m\u0251\u02d0t\u0283/"
+        },
+        {
+          "sentence": "School starts in July",
+          "translation": "Sekolah dimulai di bulan Juli",
+          "ipa": "/sku\u02d0l st\u0251\u02d0ts \u026an d\u0292u\u02d0\u02c8la\u026a/"
+        },
+        {
+          "sentence": "We travel in December",
+          "translation": "Kami bepergian di bulan Desember",
+          "ipa": "/wi\u02d0 \u02c8tr\u00e6v.\u0259l \u026an d\u026a\u02c8sem.b\u0259r/"
+        },
+        {
+          "sentence": "It is hot in August",
+          "translation": "Cuacanya panas di bulan Agustus",
+          "ipa": "/\u026at \u026az h\u0252t \u026an \u02c8\u0254\u02d0.\u0261\u0259st/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Friend",
+          "text": "What month is your birthday?",
+          "ipa": "/w\u0252t m\u028cn\u03b8 \u026az j\u0254\u02d0 \u02c8b\u025c\u02d0\u03b8.de\u026a/"
+        },
+        {
+          "speaker": "You",
+          "text": "It\u2019s in July.",
+          "ipa": "/\u026ats \u026an d\u0292u\u02d0\u02c8la\u026a/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "When do we have exams?",
+          "ipa": "/wen du\u02d0 wi\u02d0 h\u00e6v \u026a\u0261\u02c8z\u00e6mz/"
+        },
+        {
+          "speaker": "Student",
+          "text": "In November.",
+          "ipa": "/\u026an n\u0259\u028a\u02c8vem.b\u0259r/"
+        },
+        {
+          "speaker": "Parent",
+          "text": "Do you like December holidays?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak d\u026a\u02c8sem.b\u0259r \u02c8h\u0252l.\u026a.de\u026az/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, because of Christmas!",
+          "ipa": "/j\u025bs b\u026a\u02c8k\u0259z \u0259v \u02c8kr\u026as.m\u0259s/"
+        }
+      ]
+    }
+  ]
+}

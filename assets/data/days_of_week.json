@@ -1,0 +1,123 @@
+{
+  "theme": "7 Days of the Week",
+  "description": "Belajar nama-nama hari dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Sunday",
+          "word": "Sunday",
+          "ipa": "/\u02c8s\u028cn.de\u026a/",
+          "image": "assets/images/days/sunday.png",
+          "audio_prompt": "Say: Sunday"
+        },
+        {
+          "title": "Monday",
+          "word": "Monday",
+          "ipa": "/\u02c8m\u028cn.de\u026a/",
+          "image": "assets/images/days/monday.png",
+          "audio_prompt": "Say: Monday"
+        },
+        {
+          "title": "Tuesday",
+          "word": "Tuesday",
+          "ipa": "/\u02c8tju\u02d0z.de\u026a/",
+          "image": "assets/images/days/tuesday.png",
+          "audio_prompt": "Say: Tuesday"
+        },
+        {
+          "title": "Wednesday",
+          "word": "Wednesday",
+          "ipa": "/\u02c8wenz.de\u026a/",
+          "image": "assets/images/days/wednesday.png",
+          "audio_prompt": "Say: Wednesday"
+        },
+        {
+          "title": "Thursday",
+          "word": "Thursday",
+          "ipa": "/\u02c8\u03b8\u025c\u02d0z.de\u026a/",
+          "image": "assets/images/days/thursday.png",
+          "audio_prompt": "Say: Thursday"
+        },
+        {
+          "title": "Friday",
+          "word": "Friday",
+          "ipa": "/\u02c8fra\u026a.de\u026a/",
+          "image": "assets/images/days/friday.png",
+          "audio_prompt": "Say: Friday"
+        },
+        {
+          "title": "Saturday",
+          "word": "Saturday",
+          "ipa": "/\u02c8s\u00e6t.\u0259.de\u026a/",
+          "image": "assets/images/days/saturday.png",
+          "audio_prompt": "Say: Saturday"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I go to school on Monday",
+          "translation": "Saya pergi ke sekolah pada hari Senin",
+          "ipa": "/a\u026a \u0261\u0259\u028a tu\u02d0 sku\u02d0l \u0252n \u02c8m\u028cn.de\u026a/"
+        },
+        {
+          "sentence": "She plays soccer every Friday",
+          "translation": "Dia bermain sepak bola setiap hari Jumat",
+          "ipa": "/\u0283i\u02d0 ple\u026az \u02c8s\u0252k.\u0259r \u02c8ev.ri \u02c8fra\u026a.de\u026a/"
+        },
+        {
+          "sentence": "We rest on Sunday",
+          "translation": "Kami beristirahat pada hari Minggu",
+          "ipa": "/wi\u02d0 rest \u0252n \u02c8s\u028cn.de\u026a/"
+        },
+        {
+          "sentence": "My birthday is on Wednesday",
+          "translation": "Ulang tahunku hari Rabu",
+          "ipa": "/ma\u026a \u02c8b\u025c\u02d0\u03b8.de\u026a \u026az \u0252n \u02c8wenz.de\u026a/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What day is it today?",
+          "ipa": "/w\u0252t de\u026a \u026az \u026at t\u0259\u02c8de\u026a/"
+        },
+        {
+          "speaker": "Student",
+          "text": "It\u2019s Friday.",
+          "ipa": "/\u026ats \u02c8fra\u026a.de\u026a/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "When do you go to grandma\u2019s house?",
+          "ipa": "/wen du\u02d0 ju\u02d0 \u0261\u0259\u028a tu\u02d0 \u02c8\u0261r\u00e6n.m\u0251\u02d0z ha\u028as/"
+        },
+        {
+          "speaker": "Child",
+          "text": "On Saturday.",
+          "ipa": "/\u0252n \u02c8s\u00e6t.\u0259.de\u026a/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Do you like Mondays?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak \u02c8m\u028cn.de\u026az/"
+        },
+        {
+          "speaker": "You",
+          "text": "Not really, I prefer Fridays.",
+          "ipa": "/n\u0252t \u02c8r\u026a\u0259.li a\u026a pr\u026a\u02c8f\u025c\u02d0 \u02c8fra\u026a.de\u026az/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "theme": "Fruits",
+  "description": "Belajar tentang nama-nama buah dalam Bahasa Inggris melalui kata, frasa, dan dialog sederhana.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Apple",
+          "word": "apple",
+          "ipa": "/\u02c8\u00e6p.\u0259l/",
+          "image": "assets/images/fruits/apple.png",
+          "audio_prompt": "Say: apple"
+        },
+        {
+          "title": "Banana",
+          "word": "banana",
+          "ipa": "/b\u0259\u02c8n\u0251\u02d0.n\u0259/",
+          "image": "assets/images/fruits/banana.png",
+          "audio_prompt": "Say: banana"
+        },
+        {
+          "title": "Orange",
+          "word": "orange",
+          "ipa": "/\u02c8\u0252r.\u026and\u0292/",
+          "image": "assets/images/fruits/orange.png",
+          "audio_prompt": "Say: orange"
+        },
+        {
+          "title": "Grapes",
+          "word": "grapes",
+          "ipa": "/\u0261re\u026aps/",
+          "image": "assets/images/fruits/grapes.png",
+          "audio_prompt": "Say: grapes"
+        },
+        {
+          "title": "Mango",
+          "word": "mango",
+          "ipa": "/\u02c8m\u00e6\u014b.\u0261\u0259\u028a/",
+          "image": "assets/images/fruits/mango.png",
+          "audio_prompt": "Say: mango"
+        },
+        {
+          "title": "Strawberry",
+          "word": "strawberry",
+          "ipa": "/\u02c8str\u0254\u02d0.b\u0259r.i/",
+          "image": "assets/images/fruits/strawberry.png",
+          "audio_prompt": "Say: strawberry"
+        },
+        {
+          "title": "Pineapple",
+          "word": "pineapple",
+          "ipa": "/\u02c8pa\u026an\u02cc\u00e6p.\u0259l/",
+          "image": "assets/images/fruits/pineapple.png",
+          "audio_prompt": "Say: pineapple"
+        },
+        {
+          "title": "Watermelon",
+          "word": "watermelon",
+          "ipa": "/\u02c8w\u0254\u02d0.t\u0259\u02ccmel.\u0259n/",
+          "image": "assets/images/fruits/watermelon.png",
+          "audio_prompt": "Say: watermelon"
+        },
+        {
+          "title": "Papaya",
+          "word": "papaya",
+          "ipa": "/p\u0259\u02c8pa\u026a.\u0259/",
+          "image": "assets/images/fruits/papaya.png",
+          "audio_prompt": "Say: papaya"
+        },
+        {
+          "title": "Lemon",
+          "word": "lemon",
+          "ipa": "/\u02c8lem.\u0259n/",
+          "image": "assets/images/fruits/lemon.png",
+          "audio_prompt": "Say: lemon"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I like bananas",
+          "translation": "Saya suka pisang",
+          "ipa": "/a\u026a la\u026ak b\u0259\u02c8n\u0251\u02d0.n\u0259z/"
+        },
+        {
+          "sentence": "She eats an apple",
+          "translation": "Dia makan sebuah apel",
+          "ipa": "/\u0283i\u02d0 i\u02d0ts \u00e6n \u02c8\u00e6p.\u0259l/"
+        },
+        {
+          "sentence": "We have some grapes",
+          "translation": "Kami punya beberapa anggur",
+          "ipa": "/wi\u02d0 h\u00e6v s\u0259m \u0261re\u026aps/"
+        },
+        {
+          "sentence": "He drinks orange juice",
+          "translation": "Dia minum jus jeruk",
+          "ipa": "/hi\u02d0 dr\u026a\u014bks \u02c8\u0252r.\u026and\u0292 d\u0292u\u02d0s/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What is your favorite fruit?",
+          "ipa": "/w\u0252t \u026az j\u0254\u02d0r \u02c8fe\u026a.v\u0259r.\u026at fru\u02d0t/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I like mangoes.",
+          "ipa": "/a\u026a la\u026ak \u02c8m\u00e6\u014b.\u0261\u0259\u028az/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Do you want some watermelon?",
+          "ipa": "/du\u02d0 ju\u02d0 w\u0252nt s\u0259m \u02c8w\u0254\u02d0.t\u0259\u02ccmel.\u0259n/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, please!",
+          "ipa": "/j\u025bs pli\u02d0z/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Let's eat strawberries!",
+          "ipa": "/l\u025bts i\u02d0t \u02c8str\u0254\u02d0.b\u0259r.iz/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yummy! I love them.",
+          "ipa": "/\u02c8j\u028cm.i a\u026a l\u028cv \u00f0\u0259m/"
+        }
+      ]
+    }
+  ]
+}

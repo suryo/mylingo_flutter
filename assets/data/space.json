@@ -1,0 +1,144 @@
+{
+  "theme": "Sun, Earth, Moon, Stars",
+  "description": "Belajar tentang benda-benda langit dasar seperti matahari, bumi, bulan, dan bintang dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Sun",
+          "word": "sun",
+          "ipa": "/s\u028cn/",
+          "image": "assets/images/space/sun.png",
+          "audio_prompt": "Say: sun"
+        },
+        {
+          "title": "Earth",
+          "word": "earth",
+          "ipa": "/\u025c\u02d0\u03b8/",
+          "image": "assets/images/space/earth.png",
+          "audio_prompt": "Say: earth"
+        },
+        {
+          "title": "Moon",
+          "word": "moon",
+          "ipa": "/mu\u02d0n/",
+          "image": "assets/images/space/moon.png",
+          "audio_prompt": "Say: moon"
+        },
+        {
+          "title": "Stars",
+          "word": "stars",
+          "ipa": "/st\u0251\u02d0z/",
+          "image": "assets/images/space/stars.png",
+          "audio_prompt": "Say: stars"
+        },
+        {
+          "title": "Sky",
+          "word": "sky",
+          "ipa": "/ska\u026a/",
+          "image": "assets/images/space/sky.png",
+          "audio_prompt": "Say: sky"
+        },
+        {
+          "title": "Day",
+          "word": "day",
+          "ipa": "/de\u026a/",
+          "image": "assets/images/space/day.png",
+          "audio_prompt": "Say: day"
+        },
+        {
+          "title": "Night",
+          "word": "night",
+          "ipa": "/na\u026at/",
+          "image": "assets/images/space/night.png",
+          "audio_prompt": "Say: night"
+        },
+        {
+          "title": "Planet",
+          "word": "planet",
+          "ipa": "/\u02c8pl\u00e6n.\u026at/",
+          "image": "assets/images/space/planet.png",
+          "audio_prompt": "Say: planet"
+        },
+        {
+          "title": "Galaxy",
+          "word": "galaxy",
+          "ipa": "/\u02c8\u0261\u00e6l.\u0259k.si/",
+          "image": "assets/images/space/galaxy.png",
+          "audio_prompt": "Say: galaxy"
+        },
+        {
+          "title": "Universe",
+          "word": "universe",
+          "ipa": "/\u02c8ju\u02d0.n\u026a.v\u025c\u02d0s/",
+          "image": "assets/images/space/universe.png",
+          "audio_prompt": "Say: universe"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "The sun is bright",
+          "translation": "Matahari bersinar terang",
+          "ipa": "/\u00f0\u0259 s\u028cn \u026az bra\u026at/"
+        },
+        {
+          "sentence": "The moon is round",
+          "translation": "Bulan berbentuk bulat",
+          "ipa": "/\u00f0\u0259 mu\u02d0n \u026az ra\u028and/"
+        },
+        {
+          "sentence": "The stars shine at night",
+          "translation": "Bintang-bintang bersinar di malam hari",
+          "ipa": "/\u00f0\u0259 st\u0251\u02d0z \u0283a\u026an \u00e6t na\u026at/"
+        },
+        {
+          "sentence": "We live on Earth",
+          "translation": "Kita tinggal di Bumi",
+          "ipa": "/wi\u02d0 l\u026av \u0252n \u025c\u02d0\u03b8/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What do you see in the sky?",
+          "ipa": "/w\u0252t du\u02d0 ju\u02d0 si\u02d0 \u026an \u00f0\u0259 ska\u026a/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I see the moon and stars.",
+          "ipa": "/a\u026a si\u02d0 \u00f0\u0259 mu\u02d0n \u0259nd st\u0251\u02d0z/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Where is the sun now?",
+          "ipa": "/we\u0259 \u026az \u00f0\u0259 s\u028cn na\u028a/"
+        },
+        {
+          "speaker": "Child",
+          "text": "It\u2019s behind the clouds.",
+          "ipa": "/\u026ats b\u026a\u02c8ha\u026and \u00f0\u0259 kla\u028adz/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Is Earth a planet?",
+          "ipa": "/\u026az \u025c\u02d0\u03b8 \u0259 \u02c8pl\u00e6n.\u026at/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yes, it is!",
+          "ipa": "/j\u025bs \u026at \u026az/"
+        }
+      ]
+    }
+  ]
+}

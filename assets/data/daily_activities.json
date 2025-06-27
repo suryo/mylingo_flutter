@@ -1,0 +1,144 @@
+{
+  "theme": "Daily Activities",
+  "description": "Belajar tentang aktivitas harian dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Wake up",
+          "word": "wake up",
+          "ipa": "/we\u026ak \u028cp/",
+          "image": "assets/images/daily_activities/wake_up.png",
+          "audio_prompt": "Say: wake up"
+        },
+        {
+          "title": "Brush teeth",
+          "word": "brush teeth",
+          "ipa": "/br\u028c\u0283 ti\u02d0\u03b8/",
+          "image": "assets/images/daily_activities/brush_teeth.png",
+          "audio_prompt": "Say: brush teeth"
+        },
+        {
+          "title": "Take a shower",
+          "word": "take a shower",
+          "ipa": "/te\u026ak \u0259 \u02c8\u0283a\u028a.\u0259r/",
+          "image": "assets/images/daily_activities/take_shower.png",
+          "audio_prompt": "Say: take a shower"
+        },
+        {
+          "title": "Get dressed",
+          "word": "get dressed",
+          "ipa": "/\u0261et drest/",
+          "image": "assets/images/daily_activities/get_dressed.png",
+          "audio_prompt": "Say: get dressed"
+        },
+        {
+          "title": "Eat breakfast",
+          "word": "eat breakfast",
+          "ipa": "/i\u02d0t \u02c8brek.f\u0259st/",
+          "image": "assets/images/daily_activities/eat_breakfast.png",
+          "audio_prompt": "Say: eat breakfast"
+        },
+        {
+          "title": "Go to school",
+          "word": "go to school",
+          "ipa": "/\u0261\u0259\u028a tu\u02d0 sku\u02d0l/",
+          "image": "assets/images/daily_activities/go_to_school.png",
+          "audio_prompt": "Say: go to school"
+        },
+        {
+          "title": "Study",
+          "word": "study",
+          "ipa": "/\u02c8st\u028cd.i/",
+          "image": "assets/images/daily_activities/study.png",
+          "audio_prompt": "Say: study"
+        },
+        {
+          "title": "Play",
+          "word": "play",
+          "ipa": "/ple\u026a/",
+          "image": "assets/images/daily_activities/play.png",
+          "audio_prompt": "Say: play"
+        },
+        {
+          "title": "Eat dinner",
+          "word": "eat dinner",
+          "ipa": "/i\u02d0t \u02c8d\u026an.\u0259r/",
+          "image": "assets/images/daily_activities/eat_dinner.png",
+          "audio_prompt": "Say: eat dinner"
+        },
+        {
+          "title": "Go to bed",
+          "word": "go to bed",
+          "ipa": "/\u0261\u0259\u028a tu\u02d0 bed/",
+          "image": "assets/images/daily_activities/go_to_bed.png",
+          "audio_prompt": "Say: go to bed"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I brush my teeth every morning",
+          "translation": "Saya menyikat gigi setiap pagi",
+          "ipa": "/a\u026a br\u028c\u0283 ma\u026a ti\u02d0\u03b8 \u02c8\u025bv.ri \u02c8m\u0254\u02d0.n\u026a\u014b/"
+        },
+        {
+          "sentence": "He takes a shower before school",
+          "translation": "Dia mandi sebelum sekolah",
+          "ipa": "/hi\u02d0 te\u026aks \u0259 \u02c8\u0283a\u028a.\u0259r b\u026a\u02c8f\u0254\u02d0 sku\u02d0l/"
+        },
+        {
+          "sentence": "She goes to bed at nine",
+          "translation": "Dia tidur jam sembilan",
+          "ipa": "/\u0283i\u02d0 \u0261\u0259\u028az tu\u02d0 bed \u00e6t na\u026an/"
+        },
+        {
+          "sentence": "We eat dinner together",
+          "translation": "Kami makan malam bersama",
+          "ipa": "/wi\u02d0 i\u02d0t \u02c8d\u026an.\u0259r t\u0259\u02c8\u0261e\u00f0.\u0259r/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What do you do in the morning?",
+          "ipa": "/w\u0252t du\u02d0 ju\u02d0 du\u02d0 \u026an \u00f0\u0259 \u02c8m\u0254\u02d0.n\u026a\u014b/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I wake up and eat breakfast.",
+          "ipa": "/a\u026a we\u026ak \u028cp \u0259nd i\u02d0t \u02c8brek.f\u0259st/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Did you brush your teeth?",
+          "ipa": "/d\u026ad ju\u02d0 br\u028c\u0283 j\u0254\u02d0 ti\u02d0\u03b8/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, I did!",
+          "ipa": "/j\u025bs a\u026a d\u026ad/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "What time do you go to bed?",
+          "ipa": "/w\u0252t ta\u026am du\u02d0 ju\u02d0 \u0261\u0259\u028a tu\u02d0 bed/"
+        },
+        {
+          "speaker": "You",
+          "text": "At nine o\u2019clock.",
+          "ipa": "/\u00e6t na\u026an \u0259\u02c8kl\u0252k/"
+        }
+      ]
+    }
+  ]
+}

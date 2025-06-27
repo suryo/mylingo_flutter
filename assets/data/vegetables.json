@@ -1,0 +1,144 @@
+{
+  "theme": "Vegetables",
+  "description": "Belajar tentang nama-nama sayuran dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Carrot",
+          "word": "carrot",
+          "ipa": "/\u02c8k\u00e6r.\u0259t/",
+          "image": "assets/images/vegetables/carrot.png",
+          "audio_prompt": "Say: carrot"
+        },
+        {
+          "title": "Potato",
+          "word": "potato",
+          "ipa": "/p\u0259\u02c8te\u026a.t\u0259\u028a/",
+          "image": "assets/images/vegetables/potato.png",
+          "audio_prompt": "Say: potato"
+        },
+        {
+          "title": "Tomato",
+          "word": "tomato",
+          "ipa": "/t\u0259\u02c8m\u0251\u02d0.t\u0259\u028a/",
+          "image": "assets/images/vegetables/tomato.png",
+          "audio_prompt": "Say: tomato"
+        },
+        {
+          "title": "Cucumber",
+          "word": "cucumber",
+          "ipa": "/\u02c8kju\u02d0.k\u028cm.b\u0259r/",
+          "image": "assets/images/vegetables/cucumber.png",
+          "audio_prompt": "Say: cucumber"
+        },
+        {
+          "title": "Broccoli",
+          "word": "broccoli",
+          "ipa": "/\u02c8br\u0252k.\u0259l.i/",
+          "image": "assets/images/vegetables/broccoli.png",
+          "audio_prompt": "Say: broccoli"
+        },
+        {
+          "title": "Spinach",
+          "word": "spinach",
+          "ipa": "/\u02c8sp\u026an.\u026at\u0283/",
+          "image": "assets/images/vegetables/spinach.png",
+          "audio_prompt": "Say: spinach"
+        },
+        {
+          "title": "Onion",
+          "word": "onion",
+          "ipa": "/\u02c8\u028cn.j\u0259n/",
+          "image": "assets/images/vegetables/onion.png",
+          "audio_prompt": "Say: onion"
+        },
+        {
+          "title": "Corn",
+          "word": "corn",
+          "ipa": "/k\u0254\u02d0n/",
+          "image": "assets/images/vegetables/corn.png",
+          "audio_prompt": "Say: corn"
+        },
+        {
+          "title": "Pepper",
+          "word": "pepper",
+          "ipa": "/\u02c8pep.\u0259r/",
+          "image": "assets/images/vegetables/pepper.png",
+          "audio_prompt": "Say: pepper"
+        },
+        {
+          "title": "Eggplant",
+          "word": "eggplant",
+          "ipa": "/\u02c8e\u0261.pl\u0251\u02d0nt/",
+          "image": "assets/images/vegetables/eggplant.png",
+          "audio_prompt": "Say: eggplant"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I eat carrots",
+          "translation": "Saya makan wortel",
+          "ipa": "/a\u026a i\u02d0t \u02c8k\u00e6r.\u0259ts/"
+        },
+        {
+          "sentence": "He likes tomatoes",
+          "translation": "Dia suka tomat",
+          "ipa": "/hi\u02d0 la\u026aks t\u0259\u02c8m\u0251\u02d0.t\u0259\u028az/"
+        },
+        {
+          "sentence": "We cook potatoes",
+          "translation": "Kami memasak kentang",
+          "ipa": "/wi\u02d0 k\u028ak p\u0259\u02c8te\u026a.t\u0259\u028az/"
+        },
+        {
+          "sentence": "She eats spinach",
+          "translation": "Dia makan bayam",
+          "ipa": "/\u0283i\u02d0 i\u02d0ts \u02c8sp\u026an.\u026at\u0283/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Mom",
+          "text": "Do you like broccoli?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak \u02c8br\u0252k.\u0259l.i/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, I like broccoli.",
+          "ipa": "/j\u025bs a\u026a la\u026ak \u02c8br\u0252k.\u0259l.i/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "What vegetables do you eat?",
+          "ipa": "/w\u0252t \u02c8ved\u0292.t\u0259.b\u0259lz du\u02d0 ju\u02d0 i\u02d0t/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I eat corn and carrots.",
+          "ipa": "/a\u026a i\u02d0t k\u0254\u02d0n \u0259nd \u02c8k\u00e6r.\u0259ts/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Do you like eggplants?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak \u02c8e\u0261.pl\u0251\u02d0nts/"
+        },
+        {
+          "speaker": "You",
+          "text": "No, I don't like them.",
+          "ipa": "/n\u0259\u028a a\u026a d\u0259\u028ant la\u026ak \u00f0\u0259m/"
+        }
+      ]
+    }
+  ]
+}

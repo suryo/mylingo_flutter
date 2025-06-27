@@ -1,0 +1,144 @@
+{
+  "theme": "Toys",
+  "description": "Belajar tentang nama-nama mainan dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Ball",
+          "word": "ball",
+          "ipa": "/b\u0254\u02d0l/",
+          "image": "assets/images/toys/ball.png",
+          "audio_prompt": "Say: ball"
+        },
+        {
+          "title": "Doll",
+          "word": "doll",
+          "ipa": "/d\u0252l/",
+          "image": "assets/images/toys/doll.png",
+          "audio_prompt": "Say: doll"
+        },
+        {
+          "title": "Teddy bear",
+          "word": "teddy bear",
+          "ipa": "/\u02c8ted.i be\u0259/",
+          "image": "assets/images/toys/teddy_bear.png",
+          "audio_prompt": "Say: teddy bear"
+        },
+        {
+          "title": "Car",
+          "word": "car",
+          "ipa": "/k\u0251\u02d0/",
+          "image": "assets/images/toys/car.png",
+          "audio_prompt": "Say: car"
+        },
+        {
+          "title": "Train",
+          "word": "train",
+          "ipa": "/tre\u026an/",
+          "image": "assets/images/toys/train.png",
+          "audio_prompt": "Say: train"
+        },
+        {
+          "title": "Blocks",
+          "word": "blocks",
+          "ipa": "/bl\u0252ks/",
+          "image": "assets/images/toys/blocks.png",
+          "audio_prompt": "Say: blocks"
+        },
+        {
+          "title": "Robot",
+          "word": "robot",
+          "ipa": "/\u02c8r\u0259\u028a.b\u0252t/",
+          "image": "assets/images/toys/robot.png",
+          "audio_prompt": "Say: robot"
+        },
+        {
+          "title": "Kite",
+          "word": "kite",
+          "ipa": "/ka\u026at/",
+          "image": "assets/images/toys/kite.png",
+          "audio_prompt": "Say: kite"
+        },
+        {
+          "title": "Puzzle",
+          "word": "puzzle",
+          "ipa": "/\u02c8p\u028cz.\u0259l/",
+          "image": "assets/images/toys/puzzle.png",
+          "audio_prompt": "Say: puzzle"
+        },
+        {
+          "title": "Yo-yo",
+          "word": "yo-yo",
+          "ipa": "/\u02c8j\u0259\u028a.j\u0259\u028a/",
+          "image": "assets/images/toys/yoyo.png",
+          "audio_prompt": "Say: yo-yo"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I play with my robot",
+          "translation": "Saya bermain dengan robot saya",
+          "ipa": "/a\u026a ple\u026a w\u026a\u00f0 ma\u026a \u02c8r\u0259\u028a.b\u0252t/"
+        },
+        {
+          "sentence": "He throws the ball",
+          "translation": "Dia melempar bola",
+          "ipa": "/hi\u02d0 \u03b8r\u0259\u028az \u00f0\u0259 b\u0254\u02d0l/"
+        },
+        {
+          "sentence": "She hugs her teddy bear",
+          "translation": "Dia memeluk boneka teddy-nya",
+          "ipa": "/\u0283i\u02d0 h\u028c\u0261z h\u025c\u02d0 \u02c8ted.i be\u0259/"
+        },
+        {
+          "sentence": "We fly the kite",
+          "translation": "Kami menerbangkan layang-layang",
+          "ipa": "/wi\u02d0 fla\u026a \u00f0\u0259 ka\u026at/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Mom",
+          "text": "What toy do you like?",
+          "ipa": "/w\u0252t t\u0254\u026a du\u02d0 ju\u02d0 la\u026ak/"
+        },
+        {
+          "speaker": "Child",
+          "text": "I like my teddy bear.",
+          "ipa": "/a\u026a la\u026ak ma\u026a \u02c8ted.i be\u0259/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Do you want to play with the blocks?",
+          "ipa": "/du\u02d0 ju\u02d0 w\u0252nt tu\u02d0 ple\u026a w\u026a\u00f0 \u00f0\u0259 bl\u0252ks/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yes, let's build a house!",
+          "ipa": "/j\u025bs lets b\u026ald \u0259 ha\u028as/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Where is your yo-yo?",
+          "ipa": "/we\u0259 \u026az j\u0254\u02d0 \u02c8j\u0259\u028a.j\u0259\u028a/"
+        },
+        {
+          "speaker": "Student",
+          "text": "It's in my bag.",
+          "ipa": "/\u026ats \u026an ma\u026a b\u00e6\u0261/"
+        }
+      ]
+    }
+  ]
+}

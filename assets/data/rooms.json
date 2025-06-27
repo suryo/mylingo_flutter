@@ -1,0 +1,144 @@
+{
+  "theme": "Rooms in the House",
+  "description": "Belajar tentang ruangan-ruangan di dalam rumah dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Living Room",
+          "word": "living room",
+          "ipa": "/\u02c8l\u026av.\u026a\u014b ru\u02d0m/",
+          "image": "assets/images/rooms/living_room.png",
+          "audio_prompt": "Say: living room"
+        },
+        {
+          "title": "Bedroom",
+          "word": "bedroom",
+          "ipa": "/\u02c8bed.ru\u02d0m/",
+          "image": "assets/images/rooms/bedroom.png",
+          "audio_prompt": "Say: bedroom"
+        },
+        {
+          "title": "Bathroom",
+          "word": "bathroom",
+          "ipa": "/\u02c8b\u0251\u02d0\u03b8.ru\u02d0m/",
+          "image": "assets/images/rooms/bathroom.png",
+          "audio_prompt": "Say: bathroom"
+        },
+        {
+          "title": "Kitchen",
+          "word": "kitchen",
+          "ipa": "/\u02c8k\u026at\u0283.\u0259n/",
+          "image": "assets/images/rooms/kitchen.png",
+          "audio_prompt": "Say: kitchen"
+        },
+        {
+          "title": "Dining Room",
+          "word": "dining room",
+          "ipa": "/\u02c8da\u026a.n\u026a\u014b ru\u02d0m/",
+          "image": "assets/images/rooms/dining_room.png",
+          "audio_prompt": "Say: dining room"
+        },
+        {
+          "title": "Garage",
+          "word": "garage",
+          "ipa": "/\u02c8\u0261\u00e6r.\u0251\u02d0\u0292/",
+          "image": "assets/images/rooms/garage.png",
+          "audio_prompt": "Say: garage"
+        },
+        {
+          "title": "Hallway",
+          "word": "hallway",
+          "ipa": "/\u02c8h\u0254\u02d0l.we\u026a/",
+          "image": "assets/images/rooms/hallway.png",
+          "audio_prompt": "Say: hallway"
+        },
+        {
+          "title": "Laundry Room",
+          "word": "laundry room",
+          "ipa": "/\u02c8l\u0254\u02d0n.dri ru\u02d0m/",
+          "image": "assets/images/rooms/laundry_room.png",
+          "audio_prompt": "Say: laundry room"
+        },
+        {
+          "title": "Attic",
+          "word": "attic",
+          "ipa": "/\u02c8\u00e6t.\u026ak/",
+          "image": "assets/images/rooms/attic.png",
+          "audio_prompt": "Say: attic"
+        },
+        {
+          "title": "Basement",
+          "word": "basement",
+          "ipa": "/\u02c8be\u026as.m\u0259nt/",
+          "image": "assets/images/rooms/basement.png",
+          "audio_prompt": "Say: basement"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I sleep in the bedroom",
+          "translation": "Saya tidur di kamar tidur",
+          "ipa": "/a\u026a sli\u02d0p \u026an \u00f0\u0259 \u02c8bed.ru\u02d0m/"
+        },
+        {
+          "sentence": "He is in the kitchen",
+          "translation": "Dia ada di dapur",
+          "ipa": "/hi\u02d0 \u026az \u026an \u00f0\u0259 \u02c8k\u026at\u0283.\u0259n/"
+        },
+        {
+          "sentence": "She is in the bathroom",
+          "translation": "Dia ada di kamar mandi",
+          "ipa": "/\u0283i\u02d0 \u026az \u026an \u00f0\u0259 \u02c8b\u0251\u02d0\u03b8.ru\u02d0m/"
+        },
+        {
+          "sentence": "We eat in the dining room",
+          "translation": "Kami makan di ruang makan",
+          "ipa": "/wi\u02d0 i\u02d0t \u026an \u00f0\u0259 \u02c8da\u026a.n\u026a\u014b ru\u02d0m/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Child",
+          "text": "Where is dad?",
+          "ipa": "/we\u0259 \u026az d\u00e6d/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "He is in the kitchen.",
+          "ipa": "/hi\u02d0 \u026az \u026an \u00f0\u0259 \u02c8k\u026at\u0283.\u0259n/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Where do you sleep?",
+          "ipa": "/we\u0259 du\u02d0 ju\u02d0 sli\u02d0p/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I sleep in the bedroom.",
+          "ipa": "/a\u026a sli\u02d0p \u026an \u00f0\u0259 \u02c8bed.ru\u02d0m/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Is that the living room?",
+          "ipa": "/\u026az \u00f0\u00e6t \u00f0\u0259 \u02c8l\u026av.\u026a\u014b ru\u02d0m/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yes, we watch TV there.",
+          "ipa": "/j\u025bs wi\u02d0 w\u0252\u02a7 \u02ccti\u02d0\u02c8vi\u02d0 \u00f0e\u0259/"
+        }
+      ]
+    }
+  ]
+}

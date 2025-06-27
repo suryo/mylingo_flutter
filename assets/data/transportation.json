@@ -1,0 +1,144 @@
+{
+  "theme": "Transportation",
+  "description": "Belajar tentang berbagai macam alat transportasi dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Car",
+          "word": "car",
+          "ipa": "/k\u0251\u02d0r/",
+          "image": "assets/images/transportation/car.png",
+          "audio_prompt": "Say: car"
+        },
+        {
+          "title": "Bus",
+          "word": "bus",
+          "ipa": "/b\u028cs/",
+          "image": "assets/images/transportation/bus.png",
+          "audio_prompt": "Say: bus"
+        },
+        {
+          "title": "Train",
+          "word": "train",
+          "ipa": "/tre\u026an/",
+          "image": "assets/images/transportation/train.png",
+          "audio_prompt": "Say: train"
+        },
+        {
+          "title": "Bicycle",
+          "word": "bicycle",
+          "ipa": "/\u02c8ba\u026a.s\u026a.k\u0259l/",
+          "image": "assets/images/transportation/bicycle.png",
+          "audio_prompt": "Say: bicycle"
+        },
+        {
+          "title": "Motorcycle",
+          "word": "motorcycle",
+          "ipa": "/\u02c8m\u0259\u028a.t\u0259\u02ccsa\u026a.k\u0259l/",
+          "image": "assets/images/transportation/motorcycle.png",
+          "audio_prompt": "Say: motorcycle"
+        },
+        {
+          "title": "Airplane",
+          "word": "airplane",
+          "ipa": "/\u02c8e\u0259.ple\u026an/",
+          "image": "assets/images/transportation/airplane.png",
+          "audio_prompt": "Say: airplane"
+        },
+        {
+          "title": "Boat",
+          "word": "boat",
+          "ipa": "/b\u0259\u028at/",
+          "image": "assets/images/transportation/boat.png",
+          "audio_prompt": "Say: boat"
+        },
+        {
+          "title": "Helicopter",
+          "word": "helicopter",
+          "ipa": "/\u02c8hel.\u026a\u02cck\u0252p.t\u0259r/",
+          "image": "assets/images/transportation/helicopter.png",
+          "audio_prompt": "Say: helicopter"
+        },
+        {
+          "title": "Truck",
+          "word": "truck",
+          "ipa": "/tr\u028ck/",
+          "image": "assets/images/transportation/truck.png",
+          "audio_prompt": "Say: truck"
+        },
+        {
+          "title": "Subway",
+          "word": "subway",
+          "ipa": "/\u02c8s\u028cb.we\u026a/",
+          "image": "assets/images/transportation/subway.png",
+          "audio_prompt": "Say: subway"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I go to school by bus",
+          "translation": "Saya pergi ke sekolah naik bus",
+          "ipa": "/a\u026a \u0261\u0259\u028a tu\u02d0 sku\u02d0l ba\u026a b\u028cs/"
+        },
+        {
+          "sentence": "She goes to work by car",
+          "translation": "Dia pergi kerja naik mobil",
+          "ipa": "/\u0283i\u02d0 \u0261\u0259\u028az tu\u02d0 w\u025c\u02d0k ba\u026a k\u0251\u02d0r/"
+        },
+        {
+          "sentence": "They ride bicycles",
+          "translation": "Mereka naik sepeda",
+          "ipa": "/\u00f0e\u026a ra\u026ad \u02c8ba\u026a.s\u026a.k\u0259lz/"
+        },
+        {
+          "sentence": "We fly by airplane",
+          "translation": "Kami terbang naik pesawat",
+          "ipa": "/wi\u02d0 fla\u026a ba\u026a \u02c8e\u0259.ple\u026an/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "How do you go to school?",
+          "ipa": "/ha\u028a du\u02d0 ju\u02d0 \u0261\u0259\u028a tu\u02d0 sku\u02d0l/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I go by bicycle.",
+          "ipa": "/a\u026a \u0261\u0259\u028a ba\u026a \u02c8ba\u026a.s\u026a.k\u0259l/"
+        },
+        {
+          "speaker": "Dad",
+          "text": "Do you take the subway?",
+          "ipa": "/du\u02d0 ju\u02d0 te\u026ak \u00f0\u0259 \u02c8s\u028cb.we\u026a/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, I do.",
+          "ipa": "/j\u025bs a\u026a du\u02d0/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Let's ride the bus!",
+          "ipa": "/l\u025bts ra\u026ad \u00f0\u0259 b\u028cs/"
+        },
+        {
+          "speaker": "You",
+          "text": "Okay, let's go.",
+          "ipa": "/\u02c8\u0259\u028a.ke\u026a l\u025bts \u0261\u0259\u028a/"
+        }
+      ]
+    }
+  ]
+}

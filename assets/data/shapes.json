@@ -1,0 +1,144 @@
+{
+  "theme": "Shapes",
+  "description": "Belajar tentang bentuk-bentuk dasar dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Circle",
+          "word": "circle",
+          "ipa": "/\u02c8s\u025c\u02d0.k\u0259l/",
+          "image": "assets/images/shapes/circle.png",
+          "audio_prompt": "Say: circle"
+        },
+        {
+          "title": "Square",
+          "word": "square",
+          "ipa": "/skwe\u0259(r)/",
+          "image": "assets/images/shapes/square.png",
+          "audio_prompt": "Say: square"
+        },
+        {
+          "title": "Triangle",
+          "word": "triangle",
+          "ipa": "/\u02c8tra\u026a.\u00e6\u014b.\u0261l/",
+          "image": "assets/images/shapes/triangle.png",
+          "audio_prompt": "Say: triangle"
+        },
+        {
+          "title": "Rectangle",
+          "word": "rectangle",
+          "ipa": "/\u02c8rek.t\u00e6\u014b.\u0261l/",
+          "image": "assets/images/shapes/rectangle.png",
+          "audio_prompt": "Say: rectangle"
+        },
+        {
+          "title": "Oval",
+          "word": "oval",
+          "ipa": "/\u02c8\u0259\u028a.v\u0259l/",
+          "image": "assets/images/shapes/oval.png",
+          "audio_prompt": "Say: oval"
+        },
+        {
+          "title": "Star",
+          "word": "star",
+          "ipa": "/st\u0251\u02d0(r)/",
+          "image": "assets/images/shapes/star.png",
+          "audio_prompt": "Say: star"
+        },
+        {
+          "title": "Heart",
+          "word": "heart",
+          "ipa": "/h\u0251\u02d0t/",
+          "image": "assets/images/shapes/heart.png",
+          "audio_prompt": "Say: heart"
+        },
+        {
+          "title": "Diamond",
+          "word": "diamond",
+          "ipa": "/\u02c8da\u026a\u0259.m\u0259nd/",
+          "image": "assets/images/shapes/diamond.png",
+          "audio_prompt": "Say: diamond"
+        },
+        {
+          "title": "Pentagon",
+          "word": "pentagon",
+          "ipa": "/\u02c8pen.t\u0259.\u0261\u0259n/",
+          "image": "assets/images/shapes/pentagon.png",
+          "audio_prompt": "Say: pentagon"
+        },
+        {
+          "title": "Hexagon",
+          "word": "hexagon",
+          "ipa": "/\u02c8hek.s\u0259.\u0261\u0259n/",
+          "image": "assets/images/shapes/hexagon.png",
+          "audio_prompt": "Say: hexagon"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "This is a red circle",
+          "translation": "Ini adalah lingkaran merah",
+          "ipa": "/\u00f0\u026as \u026az \u0259 red \u02c8s\u025c\u02d0.k\u0259l/"
+        },
+        {
+          "sentence": "I see a big triangle",
+          "translation": "Saya melihat segitiga besar",
+          "ipa": "/a\u026a si\u02d0 \u0259 b\u026a\u0261 \u02c8tra\u026a.\u00e6\u014b.\u0261l/"
+        },
+        {
+          "sentence": "The star is yellow",
+          "translation": "Bintang itu berwarna kuning",
+          "ipa": "/\u00f0\u0259 st\u0251\u02d0 \u026az \u02c8jel.\u0259\u028a/"
+        },
+        {
+          "sentence": "We draw a blue rectangle",
+          "translation": "Kami menggambar persegi panjang biru",
+          "ipa": "/wi\u02d0 dr\u0254\u02d0 \u0259 blu\u02d0 \u02c8rek.t\u00e6\u014b.\u0261l/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What shape is this?",
+          "ipa": "/w\u0252t \u0283e\u026ap \u026az \u00f0\u026as/"
+        },
+        {
+          "speaker": "Student",
+          "text": "It\u2019s a triangle.",
+          "ipa": "/\u026ats \u0259 \u02c8tra\u026a.\u00e6\u014b.\u0261l/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Do you like stars or hearts?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak st\u0251\u02d0z \u0254\u02d0 h\u0251\u02d0ts/"
+        },
+        {
+          "speaker": "You",
+          "text": "I like stars more.",
+          "ipa": "/a\u026a la\u026ak st\u0251\u02d0z m\u0254\u02d0/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Can you draw a circle?",
+          "ipa": "/k\u00e6n ju\u02d0 dr\u0254\u02d0 \u0259 \u02c8s\u025c\u02d0.k\u0259l/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, it's easy!",
+          "ipa": "/j\u025bs \u026ats \u02c8i\u02d0.zi/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "theme": "School Supplies",
+  "description": "Belajar tentang perlengkapan sekolah dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Pencil",
+          "word": "pencil",
+          "ipa": "/\u02c8pen.s\u0259l/",
+          "image": "assets/images/school_supplies/pencil.png",
+          "audio_prompt": "Say: pencil"
+        },
+        {
+          "title": "Pen",
+          "word": "pen",
+          "ipa": "/pen/",
+          "image": "assets/images/school_supplies/pen.png",
+          "audio_prompt": "Say: pen"
+        },
+        {
+          "title": "Eraser",
+          "word": "eraser",
+          "ipa": "/\u026a\u02c8re\u026a.z\u0259r/",
+          "image": "assets/images/school_supplies/eraser.png",
+          "audio_prompt": "Say: eraser"
+        },
+        {
+          "title": "Notebook",
+          "word": "notebook",
+          "ipa": "/\u02c8n\u0259\u028at.b\u028ak/",
+          "image": "assets/images/school_supplies/notebook.png",
+          "audio_prompt": "Say: notebook"
+        },
+        {
+          "title": "Book",
+          "word": "book",
+          "ipa": "/b\u028ak/",
+          "image": "assets/images/school_supplies/book.png",
+          "audio_prompt": "Say: book"
+        },
+        {
+          "title": "Bag",
+          "word": "bag",
+          "ipa": "/b\u00e6\u0261/",
+          "image": "assets/images/school_supplies/bag.png",
+          "audio_prompt": "Say: bag"
+        },
+        {
+          "title": "Ruler",
+          "word": "ruler",
+          "ipa": "/\u02c8ru\u02d0.l\u0259r/",
+          "image": "assets/images/school_supplies/ruler.png",
+          "audio_prompt": "Say: ruler"
+        },
+        {
+          "title": "Scissors",
+          "word": "scissors",
+          "ipa": "/\u02c8s\u026az.\u0259z/",
+          "image": "assets/images/school_supplies/scissors.png",
+          "audio_prompt": "Say: scissors"
+        },
+        {
+          "title": "Glue",
+          "word": "glue",
+          "ipa": "/\u0261lu\u02d0/",
+          "image": "assets/images/school_supplies/glue.png",
+          "audio_prompt": "Say: glue"
+        },
+        {
+          "title": "Crayons",
+          "word": "crayons",
+          "ipa": "/\u02c8kre\u026a.\u0252nz/",
+          "image": "assets/images/school_supplies/crayons.png",
+          "audio_prompt": "Say: crayons"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I write with a pencil",
+          "translation": "Saya menulis dengan pensil",
+          "ipa": "/a\u026a ra\u026at w\u026a\u00f0 \u0259 \u02c8pen.s\u0259l/"
+        },
+        {
+          "sentence": "She opens her notebook",
+          "translation": "Dia membuka buku catatannya",
+          "ipa": "/\u0283i\u02d0 \u02c8\u0259\u028a.p\u0259nz h\u025c\u02d0 \u02c8n\u0259\u028at.b\u028ak/"
+        },
+        {
+          "sentence": "He cuts paper with scissors",
+          "translation": "Dia memotong kertas dengan gunting",
+          "ipa": "/hi\u02d0 k\u028cts \u02c8pe\u026a.p\u0259r w\u026a\u00f0 \u02c8s\u026az.\u0259z/"
+        },
+        {
+          "sentence": "We color with crayons",
+          "translation": "Kami mewarnai dengan krayon",
+          "ipa": "/wi\u02d0 \u02c8k\u028cl.\u0259r w\u026a\u00f0 \u02c8kre\u026a.\u0252nz/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "Do you have a ruler?",
+          "ipa": "/du\u02d0 ju\u02d0 h\u00e6v \u0259 \u02c8ru\u02d0.l\u0259r/"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I have a blue ruler.",
+          "ipa": "/j\u025bs a\u026a h\u00e6v \u0259 blu\u02d0 \u02c8ru\u02d0.l\u0259r/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Where is your school bag?",
+          "ipa": "/we\u0259 \u026az j\u0254\u02d0 sku\u02d0l b\u00e6\u0261/"
+        },
+        {
+          "speaker": "Child",
+          "text": "It\u2019s on the chair.",
+          "ipa": "/\u026ats \u0252n \u00f0\u0259 \u02a7e\u0259/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Can I borrow your glue?",
+          "ipa": "/k\u00e6n a\u026a \u02c8b\u0252r.\u0259\u028a j\u0254\u02d0 \u0261lu\u02d0/"
+        },
+        {
+          "speaker": "You",
+          "text": "Sure, here it is.",
+          "ipa": "/\u0283\u0254\u02d0 h\u026a\u0259 \u026at \u026az/"
+        }
+      ]
+    }
+  ]
+}

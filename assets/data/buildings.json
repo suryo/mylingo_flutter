@@ -1,0 +1,144 @@
+{
+  "theme": "Buildings",
+  "description": "Belajar tentang berbagai jenis bangunan dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "House",
+          "word": "house",
+          "ipa": "/ha\u028as/",
+          "image": "assets/images/buildings/house.png",
+          "audio_prompt": "Say: house"
+        },
+        {
+          "title": "School",
+          "word": "school",
+          "ipa": "/sku\u02d0l/",
+          "image": "assets/images/buildings/school.png",
+          "audio_prompt": "Say: school"
+        },
+        {
+          "title": "Hospital",
+          "word": "hospital",
+          "ipa": "/\u02c8h\u0252s.p\u026a.t\u0259l/",
+          "image": "assets/images/buildings/hospital.png",
+          "audio_prompt": "Say: hospital"
+        },
+        {
+          "title": "Library",
+          "word": "library",
+          "ipa": "/\u02c8la\u026a.br\u0259r.i/",
+          "image": "assets/images/buildings/library.png",
+          "audio_prompt": "Say: library"
+        },
+        {
+          "title": "Post Office",
+          "word": "post office",
+          "ipa": "/p\u0259\u028ast \u02c8\u0252f.\u026as/",
+          "image": "assets/images/buildings/post_office.png",
+          "audio_prompt": "Say: post office"
+        },
+        {
+          "title": "Bank",
+          "word": "bank",
+          "ipa": "/b\u00e6\u014bk/",
+          "image": "assets/images/buildings/bank.png",
+          "audio_prompt": "Say: bank"
+        },
+        {
+          "title": "Supermarket",
+          "word": "supermarket",
+          "ipa": "/\u02c8su\u02d0.p\u0259\u02ccm\u0251\u02d0.k\u026at/",
+          "image": "assets/images/buildings/supermarket.png",
+          "audio_prompt": "Say: supermarket"
+        },
+        {
+          "title": "Police Station",
+          "word": "police station",
+          "ipa": "/p\u0259\u02c8li\u02d0s \u02ccste\u026a.\u0283\u0259n/",
+          "image": "assets/images/buildings/police_station.png",
+          "audio_prompt": "Say: police station"
+        },
+        {
+          "title": "Fire Station",
+          "word": "fire station",
+          "ipa": "/\u02c8fa\u026a\u0259 \u02ccste\u026a.\u0283\u0259n/",
+          "image": "assets/images/buildings/fire_station.png",
+          "audio_prompt": "Say: fire station"
+        },
+        {
+          "title": "Restaurant",
+          "word": "restaurant",
+          "ipa": "/\u02c8res.tr\u0252nt/",
+          "image": "assets/images/buildings/restaurant.png",
+          "audio_prompt": "Say: restaurant"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I go to the library",
+          "translation": "Saya pergi ke perpustakaan",
+          "ipa": "/a\u026a \u0261\u0259\u028a tu\u02d0 \u00f0\u0259 \u02c8la\u026a.br\u0259r.i/"
+        },
+        {
+          "sentence": "She works at the hospital",
+          "translation": "Dia bekerja di rumah sakit",
+          "ipa": "/\u0283i\u02d0 w\u025c\u02d0ks \u00e6t \u00f0\u0259 \u02c8h\u0252s.p\u026a.t\u0259l/"
+        },
+        {
+          "sentence": "We eat at the restaurant",
+          "translation": "Kami makan di restoran",
+          "ipa": "/wi\u02d0 i\u02d0t \u00e6t \u00f0\u0259 \u02c8res.tr\u0252nt/"
+        },
+        {
+          "sentence": "He goes to school",
+          "translation": "Dia pergi ke sekolah",
+          "ipa": "/hi\u02d0 \u0261\u0259\u028az tu\u02d0 sku\u02d0l/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Child",
+          "text": "Where is the hospital?",
+          "ipa": "/we\u0259 \u026az \u00f0\u0259 \u02c8h\u0252s.p\u026a.t\u0259l/"
+        },
+        {
+          "speaker": "Parent",
+          "text": "It\u2019s next to the school.",
+          "ipa": "/\u026ats nekst tu\u02d0 \u00f0\u0259 sku\u02d0l/"
+        },
+        {
+          "speaker": "Friend 1",
+          "text": "Is that the police station?",
+          "ipa": "/\u026az \u00f0\u00e6t \u00f0\u0259 p\u0259\u02c8li\u02d0s \u02ccste\u026a.\u0283\u0259n/"
+        },
+        {
+          "speaker": "Friend 2",
+          "text": "Yes, it is.",
+          "ipa": "/j\u025bs \u026at \u026az/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "What building do you see?",
+          "ipa": "/w\u0252t \u02c8b\u026al.d\u026a\u014b du\u02d0 ju\u02d0 si\u02d0/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I see a fire station.",
+          "ipa": "/a\u026a si\u02d0 \u0259 \u02c8fa\u026a\u0259 \u02ccste\u026a.\u0283\u0259n/"
+        }
+      ]
+    }
+  ]
+}

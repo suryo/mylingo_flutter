@@ -1,0 +1,144 @@
+{
+  "theme": "Family",
+  "description": "Belajar tentang anggota keluarga dalam Bahasa Inggris melalui kosakata, frasa, dan dialog sederhana.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Father",
+          "word": "father",
+          "ipa": "/\u02c8f\u0251\u02d0.\u00f0\u0259r/",
+          "image": "assets/images/family/father.png",
+          "audio_prompt": "Say: father"
+        },
+        {
+          "title": "Mother",
+          "word": "mother",
+          "ipa": "/\u02c8m\u028c\u00f0.\u0259r/",
+          "image": "assets/images/family/mother.png",
+          "audio_prompt": "Say: mother"
+        },
+        {
+          "title": "Brother",
+          "word": "brother",
+          "ipa": "/\u02c8br\u028c\u00f0.\u0259r/",
+          "image": "assets/images/family/brother.png",
+          "audio_prompt": "Say: brother"
+        },
+        {
+          "title": "Sister",
+          "word": "sister",
+          "ipa": "/\u02c8s\u026as.t\u0259r/",
+          "image": "assets/images/family/sister.png",
+          "audio_prompt": "Say: sister"
+        },
+        {
+          "title": "Grandfather",
+          "word": "grandfather",
+          "ipa": "/\u02c8\u0261r\u00e6nd\u02ccf\u0251\u02d0.\u00f0\u0259r/",
+          "image": "assets/images/family/grandfather.png",
+          "audio_prompt": "Say: grandfather"
+        },
+        {
+          "title": "Grandmother",
+          "word": "grandmother",
+          "ipa": "/\u02c8\u0261r\u00e6n\u02ccm\u028c\u00f0.\u0259r/",
+          "image": "assets/images/family/grandmother.png",
+          "audio_prompt": "Say: grandmother"
+        },
+        {
+          "title": "Uncle",
+          "word": "uncle",
+          "ipa": "/\u02c8\u028c\u014b.k\u0259l/",
+          "image": "assets/images/family/uncle.png",
+          "audio_prompt": "Say: uncle"
+        },
+        {
+          "title": "Aunt",
+          "word": "aunt",
+          "ipa": "/\u0251\u02d0nt/",
+          "image": "assets/images/family/aunt.png",
+          "audio_prompt": "Say: aunt"
+        },
+        {
+          "title": "Cousin",
+          "word": "cousin",
+          "ipa": "/\u02c8k\u028cz.\u0259n/",
+          "image": "assets/images/family/cousin.png",
+          "audio_prompt": "Say: cousin"
+        },
+        {
+          "title": "Baby",
+          "word": "baby",
+          "ipa": "/\u02c8be\u026a.bi/",
+          "image": "assets/images/family/baby.png",
+          "audio_prompt": "Say: baby"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "This is my father",
+          "translation": "Ini ayah saya",
+          "ipa": "/\u00f0\u026as \u026az ma\u026a \u02c8f\u0251\u02d0.\u00f0\u0259r/"
+        },
+        {
+          "sentence": "She is my sister",
+          "translation": "Dia adalah saudara perempuan saya",
+          "ipa": "/\u0283i\u02d0 \u026az ma\u026a \u02c8s\u026as.t\u0259r/"
+        },
+        {
+          "sentence": "He is my grandfather",
+          "translation": "Dia adalah kakek saya",
+          "ipa": "/hi\u02d0 \u026az ma\u026a \u02c8\u0261r\u00e6nd\u02ccf\u0251\u02d0.\u00f0\u0259r/"
+        },
+        {
+          "sentence": "That is my baby",
+          "translation": "Itu bayi saya",
+          "ipa": "/\u00f0\u00e6t \u026az ma\u026a \u02c8be\u026a.bi/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "Who is she?",
+          "ipa": "/hu\u02d0 \u026az \u0283i\u02d0/"
+        },
+        {
+          "speaker": "Student",
+          "text": "She is my mother.",
+          "ipa": "/\u0283i\u02d0 \u026az ma\u026a \u02c8m\u028c\u00f0.\u0259r/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Is that your uncle?",
+          "ipa": "/\u026az \u00f0\u00e6t j\u0254\u02d0 \u02c8\u028c\u014b.k\u0259l/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, he is my uncle.",
+          "ipa": "/j\u025bs hi\u02d0 \u026az ma\u026a \u02c8\u028c\u014b.k\u0259l/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Where is your brother?",
+          "ipa": "/we\u0259 \u026az j\u0254\u02d0 \u02c8br\u028c\u00f0.\u0259r/"
+        },
+        {
+          "speaker": "Child",
+          "text": "He is in the room.",
+          "ipa": "/hi\u02d0 \u026az \u026an \u00f0\u0259 ru\u02d0m/"
+        }
+      ]
+    }
+  ]
+}

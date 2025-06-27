@@ -1,0 +1,290 @@
+{
+  "theme": "Numbers",
+  "description": "Belajar angka 1\u2013100 melalui satu kata, frasa, dan dialog sederhana.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "1",
+          "word": "one",
+          "ipa": "/w\u028cn/",
+          "image": "assets/images/numbers/1.png",
+          "audio_prompt": "Say: one"
+        },
+        {
+          "title": "2",
+          "word": "two",
+          "ipa": "/tu\u02d0/",
+          "image": "assets/images/numbers/2.png",
+          "audio_prompt": "Say: two"
+        },
+        {
+          "title": "3",
+          "word": "three",
+          "ipa": "/\u03b8ri\u02d0/",
+          "image": "assets/images/numbers/3.png",
+          "audio_prompt": "Say: three"
+        },
+        {
+          "title": "4",
+          "word": "four",
+          "ipa": "/f\u0254\u02d0r/",
+          "image": "assets/images/numbers/4.png",
+          "audio_prompt": "Say: four"
+        },
+        {
+          "title": "5",
+          "word": "five",
+          "ipa": "/fa\u026av/",
+          "image": "assets/images/numbers/5.png",
+          "audio_prompt": "Say: five"
+        },
+        {
+          "title": "6",
+          "word": "six",
+          "ipa": "/s\u026aks/",
+          "image": "assets/images/numbers/6.png",
+          "audio_prompt": "Say: six"
+        },
+        {
+          "title": "7",
+          "word": "seven",
+          "ipa": "/\u02c8s\u025bv.\u0259n/",
+          "image": "assets/images/numbers/7.png",
+          "audio_prompt": "Say: seven"
+        },
+        {
+          "title": "8",
+          "word": "eight",
+          "ipa": "/e\u026at/",
+          "image": "assets/images/numbers/8.png",
+          "audio_prompt": "Say: eight"
+        },
+        {
+          "title": "9",
+          "word": "nine",
+          "ipa": "/na\u026an/",
+          "image": "assets/images/numbers/9.png",
+          "audio_prompt": "Say: nine"
+        },
+        {
+          "title": "10",
+          "word": "ten",
+          "ipa": "/t\u025bn/",
+          "image": "assets/images/numbers/10.png",
+          "audio_prompt": "Say: ten"
+        },
+        {
+          "title": "11",
+          "word": "eleven",
+          "ipa": "/\u026a\u02c8lev.\u0259n/",
+          "image": "assets/images/numbers/11.png",
+          "audio_prompt": "Say: eleven"
+        },
+        {
+          "title": "12",
+          "word": "twelve",
+          "ipa": "/tw\u025blv/",
+          "image": "assets/images/numbers/12.png",
+          "audio_prompt": "Say: twelve"
+        },
+        {
+          "title": "13",
+          "word": "thirteen",
+          "ipa": "/\u02c8\u03b8\u025c\u02d0.ti\u02d0n/",
+          "image": "assets/images/numbers/13.png",
+          "audio_prompt": "Say: thirteen"
+        },
+        {
+          "title": "14",
+          "word": "fourteen",
+          "ipa": "/\u02c8f\u0254\u02d0.ti\u02d0n/",
+          "image": "assets/images/numbers/14.png",
+          "audio_prompt": "Say: fourteen"
+        },
+        {
+          "title": "15",
+          "word": "fifteen",
+          "ipa": "/\u02c8f\u026af.ti\u02d0n/",
+          "image": "assets/images/numbers/15.png",
+          "audio_prompt": "Say: fifteen"
+        },
+        {
+          "title": "16",
+          "word": "sixteen",
+          "ipa": "/\u02c8s\u026ak.sti\u02d0n/",
+          "image": "assets/images/numbers/16.png",
+          "audio_prompt": "Say: sixteen"
+        },
+        {
+          "title": "17",
+          "word": "seventeen",
+          "ipa": "/\u02c8s\u025bv.\u0259n.ti\u02d0n/",
+          "image": "assets/images/numbers/17.png",
+          "audio_prompt": "Say: seventeen"
+        },
+        {
+          "title": "18",
+          "word": "eighteen",
+          "ipa": "/\u02c8e\u026a.ti\u02d0n/",
+          "image": "assets/images/numbers/18.png",
+          "audio_prompt": "Say: eighteen"
+        },
+        {
+          "title": "19",
+          "word": "nineteen",
+          "ipa": "/\u02c8na\u026an.ti\u02d0n/",
+          "image": "assets/images/numbers/19.png",
+          "audio_prompt": "Say: nineteen"
+        },
+        {
+          "title": "20",
+          "word": "twenty",
+          "ipa": "/\u02c8tw\u025bn.ti/",
+          "image": "assets/images/numbers/20.png",
+          "audio_prompt": "Say: twenty"
+        },
+        {
+          "title": "30",
+          "word": "thirty",
+          "ipa": "/\u02c8\u03b8\u025c\u02d0.ti/",
+          "image": "assets/images/numbers/30.png",
+          "audio_prompt": "Say: thirty"
+        },
+        {
+          "title": "40",
+          "word": "forty",
+          "ipa": "/\u02c8f\u0254\u02d0.ti/",
+          "image": "assets/images/numbers/40.png",
+          "audio_prompt": "Say: forty"
+        },
+        {
+          "title": "50",
+          "word": "fifty",
+          "ipa": "/\u02c8f\u026af.ti/",
+          "image": "assets/images/numbers/50.png",
+          "audio_prompt": "Say: fifty"
+        },
+        {
+          "title": "60",
+          "word": "sixty",
+          "ipa": "/\u02c8s\u026ak.sti/",
+          "image": "assets/images/numbers/60.png",
+          "audio_prompt": "Say: sixty"
+        },
+        {
+          "title": "70",
+          "word": "seventy",
+          "ipa": "/\u02c8s\u025bv.\u0259n.ti/",
+          "image": "assets/images/numbers/70.png",
+          "audio_prompt": "Say: seventy"
+        },
+        {
+          "title": "80",
+          "word": "eighty",
+          "ipa": "/\u02c8e\u026a.ti/",
+          "image": "assets/images/numbers/80.png",
+          "audio_prompt": "Say: eighty"
+        },
+        {
+          "title": "90",
+          "word": "ninety",
+          "ipa": "/\u02c8na\u026an.ti/",
+          "image": "assets/images/numbers/90.png",
+          "audio_prompt": "Say: ninety"
+        },
+        {
+          "title": "100",
+          "word": "one hundred",
+          "ipa": "/\u02c8h\u028cn.dr\u0259d/",
+          "image": "assets/images/numbers/100.png",
+          "audio_prompt": "Say: one hundred"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I have one apple",
+          "translation": "Saya punya satu apel",
+          "ipa": "/a\u026a h\u00e6v w\u028cn \u02c8\u00e6p.\u0259l/"
+        },
+        {
+          "sentence": "She has two balls",
+          "translation": "Dia punya dua bola",
+          "ipa": "/\u0283i\u02d0 h\u00e6z tu\u02d0 b\u0254\u02d0lz/"
+        },
+        {
+          "sentence": "I have three cats",
+          "translation": "Saya punya tiga kucing",
+          "ipa": "/a\u026a h\u00e6v \u03b8ri\u02d0 k\u00e6ts/"
+        },
+        {
+          "sentence": "You have four chairs",
+          "translation": "Kamu punya empat kursi",
+          "ipa": "/ju\u02d0 h\u00e6v f\u0254\u02d0r \u02a7\u025b\u0259z/"
+        },
+        {
+          "sentence": "He has five candies",
+          "translation": "Dia punya lima permen",
+          "ipa": "/hi\u02d0 h\u00e6z fa\u026av \u02c8k\u00e6n.diz/"
+        },
+        {
+          "sentence": "Count to five!",
+          "translation": "Hitung sampai lima!",
+          "ipa": "/ka\u028ant tu\u02d0 fa\u026av/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "How many apples?",
+          "ipa": "/ha\u028a \u02c8m\u025b.ni \u02c8\u00e6p.\u0259lz/"
+        },
+        {
+          "speaker": "Student",
+          "text": "Three apples!",
+          "ipa": "/\u03b8ri\u02d0 \u02c8\u00e6p.\u0259lz/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Can you count the stars?",
+          "ipa": "/k\u00e6n ju\u02d0 ka\u028ant \u00f0\u0259 st\u0251\u02d0z/"
+        },
+        {
+          "speaker": "Child",
+          "text": "One, two, three, four, five!",
+          "ipa": "/w\u028cn, tu\u02d0, \u03b8ri\u02d0, f\u0254\u02d0r, fa\u026av/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "How many tables are there?",
+          "ipa": "/ha\u028a \u02c8m\u025b.ni \u02c8te\u026a.b\u0259lz \u0251\u02d0 \u00f0e\u0259/"
+        },
+        {
+          "speaker": "Student",
+          "text": "There are five tables.",
+          "ipa": "/\u00f0e\u0259r \u0251\u02d0 fa\u026av \u02c8te\u026a.b\u0259lz/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "How many books are there?",
+          "ipa": "/ha\u028a \u02c8m\u025b.ni b\u028aks \u0251\u02d0 \u00f0e\u0259/"
+        },
+        {
+          "speaker": "Student",
+          "text": "There are six books.",
+          "ipa": "/\u00f0e\u0259r \u0251\u02d0 s\u026aks b\u028aks/"
+        }
+      ]
+    }
+  ]
+}

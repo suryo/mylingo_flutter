@@ -1,0 +1,144 @@
+{
+  "theme": "Drink",
+  "description": "Belajar tentang nama-nama minuman dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Water",
+          "word": "water",
+          "ipa": "/\u02c8w\u0254\u02d0.t\u0259r/",
+          "image": "assets/images/drink/water.png",
+          "audio_prompt": "Say: water"
+        },
+        {
+          "title": "Milk",
+          "word": "milk",
+          "ipa": "/m\u026alk/",
+          "image": "assets/images/drink/milk.png",
+          "audio_prompt": "Say: milk"
+        },
+        {
+          "title": "Juice",
+          "word": "juice",
+          "ipa": "/d\u0292u\u02d0s/",
+          "image": "assets/images/drink/juice.png",
+          "audio_prompt": "Say: juice"
+        },
+        {
+          "title": "Tea",
+          "word": "tea",
+          "ipa": "/ti\u02d0/",
+          "image": "assets/images/drink/tea.png",
+          "audio_prompt": "Say: tea"
+        },
+        {
+          "title": "Coffee",
+          "word": "coffee",
+          "ipa": "/\u02c8k\u0252f.i/",
+          "image": "assets/images/drink/coffee.png",
+          "audio_prompt": "Say: coffee"
+        },
+        {
+          "title": "Soda",
+          "word": "soda",
+          "ipa": "/\u02c8s\u0259\u028a.d\u0259/",
+          "image": "assets/images/drink/soda.png",
+          "audio_prompt": "Say: soda"
+        },
+        {
+          "title": "Lemonade",
+          "word": "lemonade",
+          "ipa": "/\u02cclem.\u0259\u02c8ne\u026ad/",
+          "image": "assets/images/drink/lemonade.png",
+          "audio_prompt": "Say: lemonade"
+        },
+        {
+          "title": "Coconut water",
+          "word": "coconut water",
+          "ipa": "/\u02c8k\u0259\u028a.k\u0259.n\u028ct \u02c8w\u0254\u02d0.t\u0259r/",
+          "image": "assets/images/drink/coconut_water.png",
+          "audio_prompt": "Say: coconut water"
+        },
+        {
+          "title": "Chocolate milk",
+          "word": "chocolate milk",
+          "ipa": "/\u02c8t\u0283\u0252k.l\u0259t m\u026alk/",
+          "image": "assets/images/drink/chocolate_milk.png",
+          "audio_prompt": "Say: chocolate milk"
+        },
+        {
+          "title": "Mineral water",
+          "word": "mineral water",
+          "ipa": "/\u02c8m\u026an.\u0259r.\u0259l \u02c8w\u0254\u02d0.t\u0259r/",
+          "image": "assets/images/drink/mineral_water.png",
+          "audio_prompt": "Say: mineral water"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I drink milk every morning",
+          "translation": "Saya minum susu setiap pagi",
+          "ipa": "/a\u026a dr\u026a\u014bk m\u026alk \u02c8\u025bv.ri \u02c8m\u0254\u02d0.n\u026a\u014b/"
+        },
+        {
+          "sentence": "She likes hot tea",
+          "translation": "Dia suka teh panas",
+          "ipa": "/\u0283i\u02d0 la\u026aks h\u0252t ti\u02d0/"
+        },
+        {
+          "sentence": "He drinks orange juice",
+          "translation": "Dia minum jus jeruk",
+          "ipa": "/hi\u02d0 dr\u026a\u014bks \u02c8\u0252r.\u026and\u0292 d\u0292u\u02d0s/"
+        },
+        {
+          "sentence": "We have coconut water",
+          "translation": "Kami minum air kelapa",
+          "ipa": "/wi\u02d0 h\u00e6v \u02c8k\u0259\u028a.k\u0259.n\u028ct \u02c8w\u0254\u02d0.t\u0259r/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What do you like to drink?",
+          "ipa": "/w\u0252t du\u02d0 ju\u02d0 la\u026ak tu\u02d0 dr\u026a\u014bk/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I like orange juice.",
+          "ipa": "/a\u026a la\u026ak \u02c8\u0252r.\u026and\u0292 d\u0292u\u02d0s/"
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Would you like some tea?",
+          "ipa": "/w\u028ad ju\u02d0 la\u026ak s\u0259m ti\u02d0/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yes, please.",
+          "ipa": "/j\u025bs pli\u02d0z/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Is that chocolate milk?",
+          "ipa": "/\u026az \u00f0\u00e6t \u02c8t\u0283\u0252k.l\u0259t m\u026alk/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, and it\u2019s sweet!",
+          "ipa": "/j\u025bs \u0259nd \u026ats swi\u02d0t/"
+        }
+      ]
+    }
+  ]
+}

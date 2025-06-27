@@ -1,0 +1,151 @@
+{
+  "theme": "Colors",
+  "description": "Belajar warna-warna umum dalam Bahasa Inggris melalui kata, frasa, dan dialog sederhana.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Red",
+          "word": "red",
+          "ipa": "/red/",
+          "image": "assets/images/colors/red.png",
+          "audio_prompt": "Say: red"
+        },
+        {
+          "title": "Blue",
+          "word": "blue",
+          "ipa": "/blu\u02d0/",
+          "image": "assets/images/colors/blue.png",
+          "audio_prompt": "Say: blue"
+        },
+        {
+          "title": "Green",
+          "word": "green",
+          "ipa": "/\u0261ri\u02d0n/",
+          "image": "assets/images/colors/green.png",
+          "audio_prompt": "Say: green"
+        },
+        {
+          "title": "Yellow",
+          "word": "yellow",
+          "ipa": "/\u02c8jel.\u0259\u028a/",
+          "image": "assets/images/colors/yellow.png",
+          "audio_prompt": "Say: yellow"
+        },
+        {
+          "title": "Orange",
+          "word": "orange",
+          "ipa": "/\u02c8\u0252r.\u026and\u0292/",
+          "image": "assets/images/colors/orange.png",
+          "audio_prompt": "Say: orange"
+        },
+        {
+          "title": "Purple",
+          "word": "purple",
+          "ipa": "/\u02c8p\u025c\u02d0.p\u0259l/",
+          "image": "assets/images/colors/purple.png",
+          "audio_prompt": "Say: purple"
+        },
+        {
+          "title": "Pink",
+          "word": "pink",
+          "ipa": "/p\u026a\u014bk/",
+          "image": "assets/images/colors/pink.png",
+          "audio_prompt": "Say: pink"
+        },
+        {
+          "title": "Black",
+          "word": "black",
+          "ipa": "/bl\u00e6k/",
+          "image": "assets/images/colors/black.png",
+          "audio_prompt": "Say: black"
+        },
+        {
+          "title": "White",
+          "word": "white",
+          "ipa": "/wa\u026at/",
+          "image": "assets/images/colors/white.png",
+          "audio_prompt": "Say: white"
+        },
+        {
+          "title": "Brown",
+          "word": "brown",
+          "ipa": "/bra\u028an/",
+          "image": "assets/images/colors/brown.png",
+          "audio_prompt": "Say: brown"
+        },
+        {
+          "title": "Gray",
+          "word": "gray",
+          "ipa": "/\u0261re\u026a/",
+          "image": "assets/images/colors/gray.png",
+          "audio_prompt": "Say: gray"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "The apple is red",
+          "translation": "Apelnya berwarna merah",
+          "ipa": "/\u00f0i \u02c8\u00e6p.\u0259l \u026az red/"
+        },
+        {
+          "sentence": "The sun is yellow",
+          "translation": "Matahari berwarna kuning",
+          "ipa": "/\u00f0\u0259 s\u028cn \u026az \u02c8jel.\u0259\u028a/"
+        },
+        {
+          "sentence": "I see a blue sky",
+          "translation": "Saya melihat langit biru",
+          "ipa": "/a\u026a si\u02d0 \u0259 blu\u02d0 ska\u026a/"
+        },
+        {
+          "sentence": "Look at the black cat",
+          "translation": "Lihat kucing hitam itu",
+          "ipa": "/l\u028ak \u00e6t \u00f0\u0259 bl\u00e6k k\u00e6t/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What color is the apple?",
+          "ipa": "/w\u0252t \u02c8k\u028cl.\u0259r \u026az \u00f0i \u02c8\u00e6p.\u0259l/"
+        },
+        {
+          "speaker": "Student",
+          "text": "It\u2019s red.",
+          "ipa": "/\u026ats red/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Do you like the blue ball?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak \u00f0\u0259 blu\u02d0 b\u0254\u02d0l/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, I like it.",
+          "ipa": "/j\u025bs a\u026a la\u026ak \u026at/"
+        },
+        {
+          "speaker": "Friend 1",
+          "text": "What color is the sun?",
+          "ipa": "/w\u0252t \u02c8k\u028cl.\u0259r \u026az \u00f0\u0259 s\u028cn/"
+        },
+        {
+          "speaker": "Friend 2",
+          "text": "It is yellow.",
+          "ipa": "/\u026at \u026az \u02c8jel.\u0259\u028a/"
+        }
+      ]
+    }
+  ]
+}

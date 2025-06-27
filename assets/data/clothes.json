@@ -1,0 +1,144 @@
+{
+  "theme": "Clothes",
+  "description": "Belajar tentang nama-nama pakaian dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Shirt",
+          "word": "shirt",
+          "ipa": "/\u0283\u025c\u02d0t/",
+          "image": "assets/images/clothes/shirt.png",
+          "audio_prompt": "Say: shirt"
+        },
+        {
+          "title": "T-shirt",
+          "word": "t-shirt",
+          "ipa": "/\u02c8ti\u02d0.\u0283\u025c\u02d0t/",
+          "image": "assets/images/clothes/tshirt.png",
+          "audio_prompt": "Say: t-shirt"
+        },
+        {
+          "title": "Pants",
+          "word": "pants",
+          "ipa": "/p\u00e6nts/",
+          "image": "assets/images/clothes/pants.png",
+          "audio_prompt": "Say: pants"
+        },
+        {
+          "title": "Shorts",
+          "word": "shorts",
+          "ipa": "/\u0283\u0254\u02d0ts/",
+          "image": "assets/images/clothes/shorts.png",
+          "audio_prompt": "Say: shorts"
+        },
+        {
+          "title": "Skirt",
+          "word": "skirt",
+          "ipa": "/sk\u025c\u02d0t/",
+          "image": "assets/images/clothes/skirt.png",
+          "audio_prompt": "Say: skirt"
+        },
+        {
+          "title": "Dress",
+          "word": "dress",
+          "ipa": "/dres/",
+          "image": "assets/images/clothes/dress.png",
+          "audio_prompt": "Say: dress"
+        },
+        {
+          "title": "Jacket",
+          "word": "jacket",
+          "ipa": "/\u02c8d\u0292\u00e6k.\u026at/",
+          "image": "assets/images/clothes/jacket.png",
+          "audio_prompt": "Say: jacket"
+        },
+        {
+          "title": "Hat",
+          "word": "hat",
+          "ipa": "/h\u00e6t/",
+          "image": "assets/images/clothes/hat.png",
+          "audio_prompt": "Say: hat"
+        },
+        {
+          "title": "Shoes",
+          "word": "shoes",
+          "ipa": "/\u0283u\u02d0z/",
+          "image": "assets/images/clothes/shoes.png",
+          "audio_prompt": "Say: shoes"
+        },
+        {
+          "title": "Socks",
+          "word": "socks",
+          "ipa": "/s\u0252ks/",
+          "image": "assets/images/clothes/socks.png",
+          "audio_prompt": "Say: socks"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I wear a red shirt",
+          "translation": "Saya memakai kemeja merah",
+          "ipa": "/a\u026a we\u0259 \u0259 red \u0283\u025c\u02d0t/"
+        },
+        {
+          "sentence": "She wears a skirt",
+          "translation": "Dia memakai rok",
+          "ipa": "/\u0283i\u02d0 we\u0259z \u0259 sk\u025c\u02d0t/"
+        },
+        {
+          "sentence": "He is wearing a jacket",
+          "translation": "Dia sedang memakai jaket",
+          "ipa": "/hi\u02d0 \u026az \u02c8we\u0259.r\u026a\u014b \u0259 \u02c8d\u0292\u00e6k.\u026at/"
+        },
+        {
+          "sentence": "They have new shoes",
+          "translation": "Mereka punya sepatu baru",
+          "ipa": "/\u00f0e\u026a h\u00e6v nju\u02d0 \u0283u\u02d0z/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What are you wearing?",
+          "ipa": "/w\u0252t \u0251\u02d0 ju\u02d0 \u02c8we\u0259.r\u026a\u014b/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I\u2019m wearing a hat and jacket.",
+          "ipa": "/a\u026am \u02c8we\u0259.r\u026a\u014b \u0259 h\u00e6t \u0259nd \u02c8d\u0292\u00e6k.\u026at/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Do you like my new dress?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak ma\u026a nju\u02d0 dres/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yes, it\u2019s beautiful!",
+          "ipa": "/j\u025bs \u026ats \u02c8bju\u02d0.t\u026a.f\u0259l/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Put on your socks and shoes.",
+          "ipa": "/p\u028at \u0252n j\u0254\u02d0 s\u0252ks \u0259nd \u0283u\u02d0z/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Okay, I\u2019m ready!",
+          "ipa": "/\u02c8\u0259\u028a.ke\u026a a\u026am \u02c8red.i/"
+        }
+      ]
+    }
+  ]
+}

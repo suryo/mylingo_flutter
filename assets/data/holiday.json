@@ -1,0 +1,144 @@
+{
+  "theme": "Holiday",
+  "description": "Belajar tentang kegiatan dan tempat liburan dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Beach",
+          "word": "beach",
+          "ipa": "/bi\u02d0\u02a7/",
+          "image": "assets/images/holiday/beach.png",
+          "audio_prompt": "Say: beach"
+        },
+        {
+          "title": "Mountain",
+          "word": "mountain",
+          "ipa": "/\u02c8ma\u028an.t\u026an/",
+          "image": "assets/images/holiday/mountain.png",
+          "audio_prompt": "Say: mountain"
+        },
+        {
+          "title": "Travel",
+          "word": "travel",
+          "ipa": "/\u02c8tr\u00e6v.\u0259l/",
+          "image": "assets/images/holiday/travel.png",
+          "audio_prompt": "Say: travel"
+        },
+        {
+          "title": "Vacation",
+          "word": "vacation",
+          "ipa": "/ve\u026a\u02c8ke\u026a.\u0283\u0259n/",
+          "image": "assets/images/holiday/vacation.png",
+          "audio_prompt": "Say: vacation"
+        },
+        {
+          "title": "Hotel",
+          "word": "hotel",
+          "ipa": "/h\u0259\u028a\u02c8tel/",
+          "image": "assets/images/holiday/hotel.png",
+          "audio_prompt": "Say: hotel"
+        },
+        {
+          "title": "Tent",
+          "word": "tent",
+          "ipa": "/tent/",
+          "image": "assets/images/holiday/tent.png",
+          "audio_prompt": "Say: tent"
+        },
+        {
+          "title": "Camping",
+          "word": "camping",
+          "ipa": "/\u02c8k\u00e6m.p\u026a\u014b/",
+          "image": "assets/images/holiday/camping.png",
+          "audio_prompt": "Say: camping"
+        },
+        {
+          "title": "Luggage",
+          "word": "luggage",
+          "ipa": "/\u02c8l\u028c\u0261.\u026ad\u0292/",
+          "image": "assets/images/holiday/luggage.png",
+          "audio_prompt": "Say: luggage"
+        },
+        {
+          "title": "Airplane",
+          "word": "airplane",
+          "ipa": "/\u02c8e\u0259.ple\u026an/",
+          "image": "assets/images/holiday/airplane.png",
+          "audio_prompt": "Say: airplane"
+        },
+        {
+          "title": "Souvenir",
+          "word": "souvenir",
+          "ipa": "/\u02ccsu\u02d0.v\u0259\u02c8n\u026a\u0259r/",
+          "image": "assets/images/holiday/souvenir.png",
+          "audio_prompt": "Say: souvenir"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "We go camping in the mountains",
+          "translation": "Kami berkemah di pegunungan",
+          "ipa": "/wi\u02d0 \u0261\u0259\u028a \u02c8k\u00e6m.p\u026a\u014b \u026an \u00f0\u0259 \u02c8ma\u028an.t\u026anz/"
+        },
+        {
+          "sentence": "They stay in a hotel",
+          "translation": "Mereka menginap di hotel",
+          "ipa": "/\u00f0e\u026a ste\u026a \u026an \u0259 h\u0259\u028a\u02c8tel/"
+        },
+        {
+          "sentence": "I bought a souvenir",
+          "translation": "Saya membeli oleh-oleh",
+          "ipa": "/a\u026a b\u0254\u02d0t \u0259 \u02ccsu\u02d0.v\u0259\u02c8n\u026a\u0259r/"
+        },
+        {
+          "sentence": "She travels by airplane",
+          "translation": "Dia bepergian dengan pesawat",
+          "ipa": "/\u0283i\u02d0 \u02c8tr\u00e6v.\u0259lz ba\u026a \u02c8e\u0259.ple\u026an/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Friend",
+          "text": "Where did you go on holiday?",
+          "ipa": "/we\u0259 d\u026ad ju\u02d0 \u0261\u0259\u028a \u0252n \u02c8h\u0252l.\u026a.de\u026a/"
+        },
+        {
+          "speaker": "You",
+          "text": "I went to the beach.",
+          "ipa": "/a\u026a went tu\u02d0 \u00f0\u0259 bi\u02d0\u02a7/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Did you enjoy your vacation?",
+          "ipa": "/d\u026ad ju\u02d0 \u026an\u02c8d\u0292\u0254\u026a j\u0254\u02d0 ve\u026a\u02c8ke\u026a.\u0283\u0259n/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, it was great!",
+          "ipa": "/j\u025bs \u026at w\u0259z \u0261re\u026at/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "What did you see there?",
+          "ipa": "/w\u0252t d\u026ad ju\u02d0 si\u02d0 \u00f0e\u0259/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I saw mountains and rivers.",
+          "ipa": "/a\u026a s\u0254\u02d0 \u02c8ma\u028an.t\u026anz \u0259nd \u02c8r\u026av.\u0259z/"
+        }
+      ]
+    }
+  ]
+}

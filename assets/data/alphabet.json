@@ -1,0 +1,321 @@
+{
+  "theme": "Alphabet",
+  "description": "Belajar huruf A\u2013Z dengan satu kata per huruf, frasa pendek, dan dialog sederhana.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "A",
+          "word": "apple",
+          "ipa": "/\u02c8\u00e6p.\u0259l/",
+          "image": "assets/images/alphabet/a_apple.png",
+          "audio_prompt": "A says /\u00e6/, like apple!"
+        },
+        {
+          "title": "B",
+          "word": "ball",
+          "ipa": "/b\u0254\u02d0l/",
+          "image": "assets/images/alphabet/b_ball.png",
+          "audio_prompt": "B says /b/, like ball!"
+        },
+        {
+          "title": "C",
+          "word": "cat",
+          "ipa": "/k\u00e6t/",
+          "image": "assets/images/alphabet/c_cat.png",
+          "audio_prompt": "C says /k/, like cat!"
+        },
+        {
+          "title": "D",
+          "word": "dog",
+          "ipa": "/d\u0254\u02d0\u0261/",
+          "image": "assets/images/alphabet/d_dog.png",
+          "audio_prompt": "D says /d/, like dog!"
+        },
+        {
+          "title": "E",
+          "word": "elephant",
+          "ipa": "/\u02c8\u025bl.\u026a.f\u0259nt/",
+          "image": "assets/images/alphabet/e_elephant.png",
+          "audio_prompt": "E says /\u025b/, like elephant!"
+        },
+        {
+          "title": "F",
+          "word": "fish",
+          "ipa": "/f\u026a\u0283/",
+          "image": "assets/images/alphabet/f_fish.png",
+          "audio_prompt": "F says /f/, like fish!"
+        },
+        {
+          "title": "G",
+          "word": "goat",
+          "ipa": "/\u0261o\u028at/",
+          "image": "assets/images/alphabet/g_goat.png",
+          "audio_prompt": "G says /g/, like goat!"
+        },
+        {
+          "title": "H",
+          "word": "hat",
+          "ipa": "/h\u00e6t/",
+          "image": "assets/images/alphabet/h_hat.png",
+          "audio_prompt": "H says /h/, like hat!"
+        },
+        {
+          "title": "I",
+          "word": "igloo",
+          "ipa": "/\u02c8\u026a\u0261.lu\u02d0/",
+          "image": "assets/images/alphabet/i_igloo.png",
+          "audio_prompt": "I says /\u026a/, like igloo!"
+        },
+        {
+          "title": "J",
+          "word": "jelly",
+          "ipa": "/\u02c8d\u0292\u025bl.i/",
+          "image": "assets/images/alphabet/j_jelly.png",
+          "audio_prompt": "J says /d\u0292/, like jelly!"
+        },
+        {
+          "title": "K",
+          "word": "kite",
+          "ipa": "/ka\u026at/",
+          "image": "assets/images/alphabet/k_kite.png",
+          "audio_prompt": "K says /k/, like kite!"
+        },
+        {
+          "title": "L",
+          "word": "lion",
+          "ipa": "/\u02c8la\u026a.\u0259n/",
+          "image": "assets/images/alphabet/l_lion.png",
+          "audio_prompt": "L says /l/, like lion!"
+        },
+        {
+          "title": "M",
+          "word": "monkey",
+          "ipa": "/\u02c8m\u028c\u014b.ki/",
+          "image": "assets/images/alphabet/m_monkey.png",
+          "audio_prompt": "M says /m/, like monkey!"
+        },
+        {
+          "title": "N",
+          "word": "nose",
+          "ipa": "/no\u028az/",
+          "image": "assets/images/alphabet/n_nose.png",
+          "audio_prompt": "N says /n/, like nose!"
+        },
+        {
+          "title": "O",
+          "word": "octopus",
+          "ipa": "/\u02c8\u0252k.t\u0259.p\u0259s/",
+          "image": "assets/images/alphabet/o_octopus.png",
+          "audio_prompt": "O says /o\u028a/, like octopus!"
+        },
+        {
+          "title": "P",
+          "word": "pig",
+          "ipa": "/p\u026a\u0261/",
+          "image": "assets/images/alphabet/p_pig.png",
+          "audio_prompt": "P says /p/, like pig!"
+        },
+        {
+          "title": "Q",
+          "word": "queen",
+          "ipa": "/kwi\u02d0n/",
+          "image": "assets/images/alphabet/q_queen.png",
+          "audio_prompt": "Q says /kw/, like queen!"
+        },
+        {
+          "title": "R",
+          "word": "rabbit",
+          "ipa": "/\u02c8r\u00e6b.\u026at/",
+          "image": "assets/images/alphabet/r_rabbit.png",
+          "audio_prompt": "R says /r/, like rabbit!"
+        },
+        {
+          "title": "S",
+          "word": "sun",
+          "ipa": "/s\u028cn/",
+          "image": "assets/images/alphabet/s_sun.png",
+          "audio_prompt": "S says /s/, like sun!"
+        },
+        {
+          "title": "T",
+          "word": "tiger",
+          "ipa": "/\u02c8ta\u026a.\u0261\u0259r/",
+          "image": "assets/images/alphabet/t_tiger.png",
+          "audio_prompt": "T says /t/, like tiger!"
+        },
+        {
+          "title": "U",
+          "word": "umbrella",
+          "ipa": "/\u028cm\u02c8br\u025bl.\u0259/",
+          "image": "assets/images/alphabet/u_umbrella.png",
+          "audio_prompt": "U says /\u028c/, like umbrella!"
+        },
+        {
+          "title": "V",
+          "word": "van",
+          "ipa": "/v\u00e6n/",
+          "image": "assets/images/alphabet/v_van.png",
+          "audio_prompt": "V says /v/, like van!"
+        },
+        {
+          "title": "W",
+          "word": "whale",
+          "ipa": "/we\u026al/",
+          "image": "assets/images/alphabet/w_whale.png",
+          "audio_prompt": "W says /w/, like whale!"
+        },
+        {
+          "title": "X",
+          "word": "xylophone",
+          "ipa": "/\u02c8za\u026a.l\u0259.fo\u028an/",
+          "image": "assets/images/alphabet/x_xylophone.png",
+          "audio_prompt": "X says /ks/, like xylophone!"
+        },
+        {
+          "title": "Y",
+          "word": "yogurt",
+          "ipa": "/\u02c8jo\u028a.\u0261\u0259rt/",
+          "image": "assets/images/alphabet/y_yogurt.png",
+          "audio_prompt": "Y says /j/, like yogurt!"
+        },
+        {
+          "title": "Z",
+          "word": "zebra",
+          "ipa": "/\u02c8zi\u02d0.br\u0259/",
+          "image": "assets/images/alphabet/z_zebra.png",
+          "audio_prompt": "Z says /z/, like zebra!"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "A is for Apple",
+          "translation": "A adalah untuk Apple",
+          "ipa": "/e\u026a \u026az f\u0254\u02d0r \u02c8\u00e6p.\u0259l/"
+        },
+        {
+          "sentence": "That is a Ball",
+          "translation": "Itu adalah bola",
+          "ipa": "/\u00f0\u00e6t \u026az \u0259 b\u0254\u02d0l/"
+        },
+        {
+          "sentence": "I see a cat",
+          "translation": "Saya melihat seekor kucing",
+          "ipa": "/a\u026a si\u02d0 \u0259 k\u00e6t/"
+        },
+        {
+          "sentence": "Look at the dog",
+          "translation": "Lihat anjing itu",
+          "ipa": "/l\u028ak \u00e6t \u00f0\u0259 d\u0254\u02d0\u0261/"
+        },
+        {
+          "sentence": "The Elephant is big",
+          "translation": "Gajah itu besar",
+          "ipa": "/\u00f0i \u02c8\u025bl.\u026a.f\u0259nt \u026az b\u026a\u0261/"
+        },
+        {
+          "sentence": "The Fish is small",
+          "translation": "Ikan itu kecil",
+          "ipa": "/\u00f0\u0259 f\u026a\u0283 \u026az sm\u0254\u02d0l/"
+        },
+        {
+          "sentence": "The Goat is black",
+          "translation": "Kambing itu hitam",
+          "ipa": "/\u00f0\u0259 \u0261\u0259\u028at \u026az bl\u00e6k/"
+        },
+        {
+          "sentence": "I have a Hat",
+          "translation": "Saya punya topi",
+          "ipa": "/a\u026a h\u00e6v \u0259 h\u00e6t/"
+        },
+        {
+          "sentence": "That is an Igloo",
+          "translation": "Itu adalah igloo",
+          "ipa": "/\u00f0\u00e6t \u026az \u0259n \u02c8\u026a\u0261.lu\u02d0/"
+        },
+        {
+          "sentence": "I love eating Jelly",
+          "translation": "Saya suka makan jelly",
+          "ipa": "/a\u026a l\u028cv \u02c8i\u02d0.t\u026a\u014b \u02c8d\u0292\u025bl.i/"
+        },
+        {
+          "sentence": "The Kite is Flying",
+          "translation": "Layang-layang itu sedang terbang",
+          "ipa": "/\u00f0\u0259 ka\u026at \u026az \u02c8fla\u026a.\u026a\u014b/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What is this?",
+          "ipa": "/w\u0252t \u026az \u00f0\u026as/"
+        },
+        {
+          "speaker": "Student",
+          "text": "It's an apple.",
+          "ipa": "/\u026ats \u0259n \u02c8\u00e6p.\u0259l/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Do you like the ball?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak \u00f0\u0259 b\u0254\u02d0l/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Yes, I do. I like the ball.",
+          "ipa": "/j\u025bs a\u026a du\u02d0 | a\u026a la\u026ak \u00f0\u0259 b\u0254\u02d0l/"
+        },
+        {
+          "speaker": "Friend 1",
+          "text": "What do you see?",
+          "ipa": "/w\u0252t du\u02d0 ju\u02d0 si\u02d0/"
+        },
+        {
+          "speaker": "Friend 2",
+          "text": "I see a zebra.",
+          "ipa": "/a\u026a si\u02d0 \u0259 \u02c8zi\u02d0.br\u0259/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Do you like the cat?",
+          "ipa": "/du\u02d0 ju\u02d0 la\u026ak \u00f0\u0259 k\u00e6t/"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I like the cat.",
+          "ipa": "/j\u025bs a\u026a la\u026ak \u00f0\u0259 k\u00e6t/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "What do you see?",
+          "ipa": "/w\u0252t du\u02d0 ju\u02d0 si\u02d0/"
+        },
+        {
+          "speaker": "Child",
+          "text": "I see a goat.",
+          "ipa": "/a\u026a si\u02d0 \u0259 \u0261\u0259\u028at/"
+        },
+        {
+          "speaker": "Teacher",
+          "text": "Is that a hat?",
+          "ipa": "/\u026az \u00f0\u00e6t \u0259 h\u00e6t/"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, it is. That is a hat.",
+          "ipa": "/j\u025bs \u026at \u026az | \u00f0\u00e6t \u026az \u0259 h\u00e6t/"
+        }
+      ]
+    }
+  ]
+}

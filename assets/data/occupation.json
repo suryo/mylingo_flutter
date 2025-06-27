@@ -1,0 +1,144 @@
+{
+  "theme": "Occupation",
+  "description": "Belajar tentang pekerjaan dan profesi dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Doctor",
+          "word": "doctor",
+          "ipa": "/\u02c8d\u0252k.t\u0259r/",
+          "image": "assets/images/occupation/doctor.png",
+          "audio_prompt": "Say: doctor"
+        },
+        {
+          "title": "Teacher",
+          "word": "teacher",
+          "ipa": "/\u02c8ti\u02d0.t\u0283\u0259r/",
+          "image": "assets/images/occupation/teacher.png",
+          "audio_prompt": "Say: teacher"
+        },
+        {
+          "title": "Police Officer",
+          "word": "police officer",
+          "ipa": "/p\u0259\u02c8li\u02d0s \u02c8\u0252f.\u026a.s\u0259r/",
+          "image": "assets/images/occupation/police_officer.png",
+          "audio_prompt": "Say: police officer"
+        },
+        {
+          "title": "Firefighter",
+          "word": "firefighter",
+          "ipa": "/\u02c8fa\u026a\u0259\u02ccfa\u026a.t\u0259r/",
+          "image": "assets/images/occupation/firefighter.png",
+          "audio_prompt": "Say: firefighter"
+        },
+        {
+          "title": "Chef",
+          "word": "chef",
+          "ipa": "/\u0283\u025bf/",
+          "image": "assets/images/occupation/chef.png",
+          "audio_prompt": "Say: chef"
+        },
+        {
+          "title": "Farmer",
+          "word": "farmer",
+          "ipa": "/\u02c8f\u0251\u02d0.m\u0259r/",
+          "image": "assets/images/occupation/farmer.png",
+          "audio_prompt": "Say: farmer"
+        },
+        {
+          "title": "Pilot",
+          "word": "pilot",
+          "ipa": "/\u02c8pa\u026a.l\u0259t/",
+          "image": "assets/images/occupation/pilot.png",
+          "audio_prompt": "Say: pilot"
+        },
+        {
+          "title": "Nurse",
+          "word": "nurse",
+          "ipa": "/n\u025c\u02d0s/",
+          "image": "assets/images/occupation/nurse.png",
+          "audio_prompt": "Say: nurse"
+        },
+        {
+          "title": "Engineer",
+          "word": "engineer",
+          "ipa": "/\u02ccen.d\u0292\u026a\u02c8n\u026a\u0259r/",
+          "image": "assets/images/occupation/engineer.png",
+          "audio_prompt": "Say: engineer"
+        },
+        {
+          "title": "Driver",
+          "word": "driver",
+          "ipa": "/\u02c8dra\u026a.v\u0259r/",
+          "image": "assets/images/occupation/driver.png",
+          "audio_prompt": "Say: driver"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "My dad is a pilot",
+          "translation": "Ayah saya adalah seorang pilot",
+          "ipa": "/ma\u026a d\u00e6d \u026az \u0259 \u02c8pa\u026a.l\u0259t/"
+        },
+        {
+          "sentence": "She is a teacher",
+          "translation": "Dia adalah seorang guru",
+          "ipa": "/\u0283i\u02d0 \u026az \u0259 \u02c8ti\u02d0.t\u0283\u0259r/"
+        },
+        {
+          "sentence": "He works as a doctor",
+          "translation": "Dia bekerja sebagai dokter",
+          "ipa": "/hi\u02d0 w\u025c\u02d0ks \u00e6z \u0259 \u02c8d\u0252k.t\u0259r/"
+        },
+        {
+          "sentence": "The firefighter is brave",
+          "translation": "Pemadam kebakaran itu pemberani",
+          "ipa": "/\u00f0\u0259 \u02c8fa\u026a\u0259\u02ccfa\u026a.t\u0259r \u026az bre\u026av/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What do you want to be?",
+          "ipa": "/w\u0252t du\u02d0 ju\u02d0 w\u0252nt tu\u02d0 bi\u02d0/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I want to be a doctor.",
+          "ipa": "/a\u026a w\u0252nt tu\u02d0 bi\u02d0 \u0259 \u02c8d\u0252k.t\u0259r/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Is your sister a nurse?",
+          "ipa": "/\u026az j\u0254\u02d0 \u02c8s\u026as.t\u0259r \u0259 n\u025c\u02d0s/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yes, she works at the hospital.",
+          "ipa": "/j\u025bs \u0283i\u02d0 w\u025c\u02d0ks \u00e6t \u00f0\u0259 \u02c8h\u0252s.p\u026a.t\u0259l/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "What does your dad do?",
+          "ipa": "/w\u0252t d\u028cz j\u0254\u02d0 d\u00e6d du\u02d0/"
+        },
+        {
+          "speaker": "You",
+          "text": "He is an engineer.",
+          "ipa": "/hi\u02d0 \u026az \u00e6n \u02ccen.d\u0292\u026a\u02c8n\u026a\u0259r/"
+        }
+      ]
+    }
+  ]
+}

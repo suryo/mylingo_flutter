@@ -1,0 +1,144 @@
+{
+  "theme": "Body Parts",
+  "description": "Belajar nama-nama bagian tubuh dalam Bahasa Inggris.",
+  "levels": [
+    {
+      "level": "Beginner",
+      "type": "word",
+      "items": [
+        {
+          "title": "Head",
+          "word": "head",
+          "ipa": "/hed/",
+          "image": "assets/images/body_parts/head.png",
+          "audio_prompt": "Say: head"
+        },
+        {
+          "title": "Eyes",
+          "word": "eyes",
+          "ipa": "/a\u026az/",
+          "image": "assets/images/body_parts/eyes.png",
+          "audio_prompt": "Say: eyes"
+        },
+        {
+          "title": "Ears",
+          "word": "ears",
+          "ipa": "/\u026a\u0259z/",
+          "image": "assets/images/body_parts/ears.png",
+          "audio_prompt": "Say: ears"
+        },
+        {
+          "title": "Nose",
+          "word": "nose",
+          "ipa": "/n\u0259\u028az/",
+          "image": "assets/images/body_parts/nose.png",
+          "audio_prompt": "Say: nose"
+        },
+        {
+          "title": "Mouth",
+          "word": "mouth",
+          "ipa": "/ma\u028a\u03b8/",
+          "image": "assets/images/body_parts/mouth.png",
+          "audio_prompt": "Say: mouth"
+        },
+        {
+          "title": "Shoulders",
+          "word": "shoulders",
+          "ipa": "/\u02c8\u0283\u0259\u028al.d\u0259z/",
+          "image": "assets/images/body_parts/shoulders.png",
+          "audio_prompt": "Say: shoulders"
+        },
+        {
+          "title": "Hands",
+          "word": "hands",
+          "ipa": "/h\u00e6ndz/",
+          "image": "assets/images/body_parts/hands.png",
+          "audio_prompt": "Say: hands"
+        },
+        {
+          "title": "Fingers",
+          "word": "fingers",
+          "ipa": "/\u02c8f\u026a\u014b.\u0261\u0259z/",
+          "image": "assets/images/body_parts/fingers.png",
+          "audio_prompt": "Say: fingers"
+        },
+        {
+          "title": "Legs",
+          "word": "legs",
+          "ipa": "/le\u0261z/",
+          "image": "assets/images/body_parts/legs.png",
+          "audio_prompt": "Say: legs"
+        },
+        {
+          "title": "Feet",
+          "word": "feet",
+          "ipa": "/fi\u02d0t/",
+          "image": "assets/images/body_parts/feet.png",
+          "audio_prompt": "Say: feet"
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "type": "sentence",
+      "items": [
+        {
+          "sentence": "I touch my nose",
+          "translation": "Saya menyentuh hidung saya",
+          "ipa": "/a\u026a t\u028c\u02a7 ma\u026a n\u0259\u028az/"
+        },
+        {
+          "sentence": "She washes her hands",
+          "translation": "Dia mencuci tangannya",
+          "ipa": "/\u0283i\u02d0 \u02c8w\u0252\u0283.\u026az h\u025c\u02d0 h\u00e6ndz/"
+        },
+        {
+          "sentence": "He has big eyes",
+          "translation": "Dia punya mata besar",
+          "ipa": "/hi\u02d0 h\u00e6z b\u026a\u0261 a\u026az/"
+        },
+        {
+          "sentence": "They move their feet",
+          "translation": "Mereka menggerakkan kaki mereka",
+          "ipa": "/\u00f0e\u026a mu\u02d0v \u00f0e\u0259 fi\u02d0t/"
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "type": "dialog",
+      "items": [
+        {
+          "speaker": "Teacher",
+          "text": "What do you see?",
+          "ipa": "/w\u0252t du\u02d0 ju\u02d0 si\u02d0/"
+        },
+        {
+          "speaker": "Student",
+          "text": "I see two eyes and a nose.",
+          "ipa": "/a\u026a si\u02d0 tu\u02d0 a\u026az \u0259nd \u0259 n\u0259\u028az/"
+        },
+        {
+          "speaker": "Mom",
+          "text": "Where are your hands?",
+          "ipa": "/we\u0259 \u0251\u02d0 j\u0254\u02d0 h\u00e6ndz/"
+        },
+        {
+          "speaker": "Child",
+          "text": "Here they are!",
+          "ipa": "/h\u026a\u0259 \u00f0e\u026a \u0251\u02d0/"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Can you wiggle your fingers?",
+          "ipa": "/k\u00e6n ju\u02d0 \u02c8w\u026a\u0261.\u0259l j\u0254\u02d0 \u02c8f\u026a\u014b.\u0261\u0259z/"
+        },
+        {
+          "speaker": "You",
+          "text": "Yes, look!",
+          "ipa": "/j\u025bs l\u028ak/"
+        }
+      ]
+    }
+  ]
+}
