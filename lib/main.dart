@@ -4,6 +4,7 @@ import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
 import 'screens/dashboard_screen.dart';
 import 'screens/intro_screen.dart';
+import 'screens/choose_level_screen.dart';
 
 void main() {
   runApp(MyLingoApp());
