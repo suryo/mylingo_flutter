@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 
 class LearningScreen extends StatefulWidget {
   final String filename;
@@ -15,7 +16,9 @@ class LearningScreen extends StatefulWidget {
 }
 
 class _LearningScreenState extends State<LearningScreen> {
+  String _selectedAccent = 'en-US'; // Default: American English
   late stt.SpeechToText _speech;
+  final FlutterTts _flutterTts = FlutterTts();
   final AudioPlayer _audioPlayer = AudioPlayer();
   bool _isListening = false;
   bool _hasSpoken = false;
@@ -29,6 +32,13 @@ class _LearningScreenState extends State<LearningScreen> {
     super.initState();
     _speech = stt.SpeechToText();
     _loadData();
+  }
+
+  Future<void> _speak(String text) async {
+     await _flutterTts.setLanguage(_selectedAccent); // dynamic
+    await _flutterTts.setPitch(1.0);
+    await _flutterTts.setSpeechRate(0.45);
+    await _flutterTts.speak(text);
   }
 
   Future<void> _loadData() async {
@@ -171,40 +181,110 @@ class _LearningScreenState extends State<LearningScreen> {
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("Ucapkan:", style: TextStyle(fontSize: 18)),
+            Text(
+              "Ucapkan:",
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 16),
 
-            SizedBox(height: 20),
+              Text("Aksen:", style: TextStyle(fontSize: 16)),
+    SizedBox(width: 10),
+    DropdownButton<String>(
+      value: _selectedAccent,
+      items: const [
+        DropdownMenuItem(
+          value: 'en-US',
+          child: Text("🇺🇸 English (US)"),
+        ),
+        DropdownMenuItem(
+          value: 'en-GB',
+          child: Text("🇬🇧 English (UK)"),
+        ),
+      ],
+      onChanged: (value) {
+        if (value != null) {
+          setState(() {
+            _selectedAccent = value;
+          });
+        }
+      },
+    ),
+
             Text(
               '"$displayText"',
-              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
-            ),
-            Text(
-              item['ipa'] ?? '',
               style: TextStyle(
-                fontSize: 18,
-                fontStyle: FontStyle.italic,
-                color: Colors.blueGrey,
+                fontSize: 32,
+                fontWeight: FontWeight.bold,
+                color: Colors.indigo,
               ),
+              textAlign: TextAlign.center,
             ),
-            SizedBox(height: 30),
-            ElevatedButton.icon(
-              icon: Icon(_isListening ? Icons.mic : Icons.mic_none),
-              label: Text(_isListening ? "Mendengarkan..." : "Mulai Ucapkan"),
-              onPressed: _isListening ? () => _speech.stop() : _startListening,
+
+            if (item['ipa'] != null)
+              Text(
+                item['ipa'],
+                style: TextStyle(
+                  fontSize: 20,
+                  fontStyle: FontStyle.italic,
+                  color: Colors.blueGrey,
+                ),
+                textAlign: TextAlign.center,
+              ),
+
+            SizedBox(height: 24),
+
+            // 🔊 Play dan 🎙 Rekam dalam 1 baris
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                ElevatedButton.icon(
+                  onPressed: () => _speak(displayText),
+                  icon: Icon(Icons.volume_up),
+                  label: Text("Play"),
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                  ),
+                ),
+                SizedBox(width: 16),
+                ElevatedButton.icon(
+                  icon: Icon(_isListening ? Icons.mic : Icons.mic_none),
+                  label: Text(
+                    _isListening ? "Mendengarkan..." : "Mulai Ucapkan",
+                  ),
+                  onPressed: _isListening
+                      ? () => _speech.stop()
+                      : _startListening,
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                  ),
+                ),
+              ],
             ),
-            SizedBox(height: 20),
-            Text("Yang kamu ucapkan:", style: TextStyle(fontSize: 16)),
+
+            SizedBox(height: 32),
+
+            Text(
+              "Yang kamu ucapkan:",
+              style: TextStyle(fontSize: 18),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 8),
             Text(
               _recognizedText,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 22,
+                fontWeight: FontWeight.w500,
                 color:
                     _recognizedText.toLowerCase().trim() ==
                         displayText.toLowerCase()
                     ? Colors.green
                     : Colors.red,
               ),
+              textAlign: TextAlign.center,
             ),
           ],
         ),

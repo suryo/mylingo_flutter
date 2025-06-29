@@ -1,6 +1,6 @@
 # 📘 MyLingo – Aplikasi Belajar Bahasa Inggris Interaktif
 
-**MyLingo** adalah aplikasi edukasi berbasis Flutter yang dirancang untuk membantu pengguna — terutama anak-anak — dalam melatih pelafalan bahasa Inggris melalui metode pengenalan suara (*speech recognition*). Aplikasi ini sepenuhnya **offline**, ringan, dan mudah digunakan.
+**MyLingo** adalah aplikasi edukasi berbasis Flutter yang dirancang untuk membantu pengguna — terutama anak-anak — dalam melatih pelafalan bahasa Inggris melalui metode pengenalan suara (*speech recognition*) dan pelafalan sistematis (*phonetic awareness*). Aplikasi ini sepenuhnya **offline**, ringan, dan mudah digunakan.
 
 ---
 
@@ -15,13 +15,14 @@ MyLingo bertujuan:
 
 ## 🔧 Teknologi yang Digunakan
 
-| Teknologi        | Deskripsi                                  |
-|------------------|--------------------------------------------|
-| Flutter          | Framework utama aplikasi mobile            |
-| Dart             | Bahasa pemrograman utama                   |
-| speech_to_text   | Plugin untuk pengenalan suara              |
-| audioplayers     | Plugin untuk memainkan suara feedback      |
-| shared_preferences | Untuk menyimpan data lokal pengguna      |
+| Teknologi          | Deskripsi                                     |
+|--------------------|-----------------------------------------------|
+| Flutter            | Framework utama aplikasi mobile               |
+| Dart               | Bahasa pemrograman utama                      |
+| speech_to_text     | Plugin untuk pengenalan suara (Speech Input) |
+| flutter_tts        | Plugin untuk Text-to-Speech (Voice Output)   |
+| audioplayers       | Plugin untuk memainkan suara feedback         |
+| shared_preferences | Untuk menyimpan data lokal pengguna           |
 
 ---
 
@@ -40,7 +41,7 @@ lib/
 │   ├── choose_theme_screen.dart
 │   └── learning_screen.dart
 assets/
-├── data/          # berisi 29 file JSON tema
+├── data/          # berisi 29 file JSON tema (dengan field word + ipa)
 └── sounds/        # bip.mp3, ding.mp3, tetot.mp3
 ```
 
@@ -50,45 +51,45 @@ assets/
 
 ### 🔹 1. **Prototype**
 - Fungsi dasar pengenalan kata menggunakan `speech_to_text`
-- Tampil satu per satu kata dalam list
-- Validasi suara dengan feedback audio (`ding`, `tetot`)
-- Navigasi antar kata dengan `next`
+- Navigasi antar kata secara berurutan
+- Feedback suara benar/salah
 
 ---
 
 ### 🔹 2. **Alpha_1**
 Fokus: Struktur dasar aplikasi
-- ✅ Splash screen
-- ✅ Register screen (nama, username, password) → data tersimpan di `SharedPreferences`
-- ✅ Login screen dengan validasi lokal
-- ✅ Auto-route berdasarkan status login/register
-- ✅ Dashboard dengan 3 menu utama (tanpa grid tema)
+- Splash screen
+- Register dan login screen (data lokal)
+- Auto-route berdasarkan status pengguna
+- Dashboard menu awal
 
 ---
 
 ### 🔹 3. **Alpha_2**
-Fokus: Struktur menu & UI pembelajaran
-- ✅ Dashboard menampilkan:
-  - 📘 Pengenalan Aplikasi
-  - 🚀 Start Learning
-  - 🎯 Pilih Level
-- ✅ Intro Screen menjelaskan penggunaan
-- ✅ Pilih level (Beginner, Intermediate, Advanced)
-- ✅ Start Learning → tampilkan 29 tema dalam grid 3 kolom
-- ✅ Data tema diambil dari file JSON lokal
-- ✅ Nama dan level user ditampilkan di dashboard
+Fokus: Navigasi tema dan level
+- Menu: About App, Start Learning, Pilih Level
+- 29 tema ditampilkan dalam bentuk grid
+- Level Beginner/Intermediate/Advanced tersimpan
+- Tampilan informasi user (nama dan level)
 
 ---
 
 ### 🔹 4. **Alpha_3**
-Fokus: Implementasi sesi pembelajaran
-- ✅ LearningScreen:
-  - Load soal berdasarkan tema dan level
-  - Tampilkan kata/frasa untuk diucapkan
-  - Gunakan speech-to-text untuk validasi
-  - Feedback audio: `ding.mp3` (benar), `tetot.mp3` (salah)
-  - Navigasi antar soal
-- ✅ Semua berjalan offline, ringan, dan stabil
+Fokus: Halaman Latihan (Learning)
+- Menampilkan kata/frasa dari file JSON
+- Speech-to-text validasi pelafalan
+- Feedback suara `ding` dan `tetot`
+- Navigasi soal dalam satu sesi
+
+---
+
+### 🔹 5. **Alpha_4**
+Fokus: Fitur Fonetik dan Suara
+- ✅ Penambahan tampilan **IPA (International Phonetic Alphabet)**
+- ✅ **Text-to-Speech (TTS)** untuk setiap kata/frasa
+- ✅ Pilihan aksen: **English (US)** & **English (UK)**
+- ✅ UI tombol pelafalan dan rekam dalam satu baris
+- ✅ Font dan layout proporsional, ramah anak
 
 ---
 
@@ -106,17 +107,16 @@ Weather, Tools
 
 ## 🚀 Status Saat Ini
 
-✅ **Versi: Alpha_3**  
+✅ **Versi: Alpha_4**  
 📱 **Platform: Android (Flutter)**  
-📡 **Mode: Offline**
+📡 **Mode: Offline, Interaktif, Fonetik**
 
 ---
 
 ## 📌 Rencana Berikutnya (Beta)
 - Statistik dan progress belajar
-- Visualisasi gambar per tema
-- Kuis akhir tema
-- Mode tantangan
+- Kuis akhir tema / sertifikat belajar
+- Visualisasi gambar pendukung
 - Sinkronisasi cloud (opsional)
 
 ---
