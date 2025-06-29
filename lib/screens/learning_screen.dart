@@ -8,7 +8,6 @@ class LearningScreen extends StatefulWidget {
   final String filename;
   final String level;
 
-
   LearningScreen({required this.filename, required this.level});
 
   @override
@@ -174,10 +173,19 @@ class _LearningScreenState extends State<LearningScreen> {
         child: Column(
           children: [
             Text("Ucapkan:", style: TextStyle(fontSize: 18)),
+
             SizedBox(height: 20),
             Text(
               '"$displayText"',
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+            ),
+            Text(
+              item['ipa'] ?? '',
+              style: TextStyle(
+                fontSize: 18,
+                fontStyle: FontStyle.italic,
+                color: Colors.blueGrey,
+              ),
             ),
             SizedBox(height: 30),
             ElevatedButton.icon(
