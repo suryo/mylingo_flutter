@@ -34,12 +34,16 @@ class _RegisterScreenState extends State<RegisterScreen> {
           key: _formKey,
           child: Column(
             children: [
-              Text("Buat Akun MyLingo", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              Text(
+                "Buat Akun Tiny Pronounce",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
               SizedBox(height: 20),
               TextFormField(
                 controller: _nameController,
                 decoration: InputDecoration(labelText: "Nama Lengkap"),
-                validator: (value) => value!.isEmpty ? "Isi nama lengkap" : null,
+                validator: (value) =>
+                    value!.isEmpty ? "Isi nama lengkap" : null,
               ),
               TextFormField(
                 controller: _usernameController,
@@ -50,12 +54,25 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 controller: _passwordController,
                 obscureText: true,
                 decoration: InputDecoration(labelText: "Password"),
-                validator: (value) => value!.length < 4 ? "Minimal 4 karakter" : null,
+                validator: (value) =>
+                    value!.length < 4 ? "Minimal 4 karakter" : null,
               ),
               SizedBox(height: 30),
-              ElevatedButton(
-                onPressed: _register,
-                child: Text("Daftar"),
+              ElevatedButton(onPressed: _register, child: Text("Daftar")),
+
+              SizedBox(height: 40),
+              Text(
+                'Powered by:',
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+              ),
+              SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset('assets/images/logo/twh.png', height: 32),
+                  SizedBox(width: 20),
+                  Image.asset('assets/images/logo/uwp.png', height: 32),
+                ],
               ),
             ],
           ),

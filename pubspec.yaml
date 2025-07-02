@@ -67,6 +67,9 @@ flutter:
     - assets/sounds/tetot.mp3
     - assets/data/
     - assets/images/splash/splash.png
+    - assets/images/logo/twh.png
+    - assets/images/logo/uwp.png
+
 
 
 flutter_icons:

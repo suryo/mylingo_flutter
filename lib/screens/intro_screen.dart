@@ -13,25 +13,44 @@ class IntroScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Pengenalan Aplikasi")),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: ListView.separated(
-          itemCount: infoTexts.length,
-          separatorBuilder: (context, index) => SizedBox(height: 16),
-          itemBuilder: (context, index) {
-            return Container(
-              decoration: BoxDecoration(
-                color: Colors.indigo.shade50,
-                borderRadius: BorderRadius.circular(12),
-              ),
-              padding: EdgeInsets.all(16),
-              child: Text(
-                infoTexts[index],
-                style: TextStyle(fontSize: 16),
-              ),
-            );
-          },
-        ),
+      body: Column(
+        children: [
+          Expanded(
+            child: ListView.separated(
+              padding: const EdgeInsets.all(16.0),
+              itemCount: infoTexts.length,
+              separatorBuilder: (context, index) => SizedBox(height: 16),
+              itemBuilder: (context, index) {
+                return Container(
+                  decoration: BoxDecoration(
+                    color: Colors.indigo.shade50,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  padding: EdgeInsets.all(16),
+                  child: Text(
+                    infoTexts[index],
+                    style: TextStyle(fontSize: 16),
+                  ),
+                );
+              },
+            ),
+          ),
+          SizedBox(height: 10),
+          Text(
+            'Powered by:',
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+          ),
+          SizedBox(height: 6),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset('assets/images/logo/twh.png', height: 30),
+              SizedBox(width: 20),
+              Image.asset('assets/images/logo/uwp.png', height: 30),
+            ],
+          ),
+          SizedBox(height: 20),
+        ],
       ),
     );
   }

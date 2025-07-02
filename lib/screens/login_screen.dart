@@ -39,7 +39,10 @@ class _LoginScreenState extends State<LoginScreen> {
           key: _formKey,
           child: Column(
             children: [
-              Text("Masuk ke MyLingo", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              Text(
+                "Masuk ke MyLingo",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
               SizedBox(height: 20),
               TextFormField(
                 controller: _usernameController,
@@ -66,6 +69,21 @@ class _LoginScreenState extends State<LoginScreen> {
                   if (_formKey.currentState!.validate()) _login();
                 },
                 child: Text("Login"),
+              ),
+
+              SizedBox(height: 40),
+              Text(
+                'Powered by:',
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+              ),
+              SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset('assets/images/logo/twh.png', height: 32),
+                  SizedBox(width: 20),
+                  Image.asset('assets/images/logo/uwp.png', height: 32),
+                ],
               ),
             ],
           ),

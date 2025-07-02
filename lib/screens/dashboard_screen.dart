@@ -56,7 +56,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("Hi, $userName 👋", style: TextStyle(fontSize: 20)),
-            Text("Level: $userLevel", style: TextStyle(fontSize: 16, color: Colors.grey[700])),
+            Text(
+              "Level: $userLevel",
+              style: TextStyle(fontSize: 16, color: Colors.grey[700]),
+            ),
             SizedBox(height: 20),
             _buildMenuCard("📘 Pengenalan Aplikasi", Icons.info_outline, () {
               Navigator.pushNamed(context, '/intro');
@@ -67,6 +70,23 @@ class _DashboardScreenState extends State<DashboardScreen> {
             _buildMenuCard("🎯 Pilih Level", Icons.school, () {
               Navigator.pushNamed(context, '/choose-level');
             }),
+
+            SizedBox(height: 40),
+            Center(
+              child: Text(
+                'Powered by:',
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+              ),
+            ),
+            SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset('assets/images/logo/twh.png', height: 32),
+                SizedBox(width: 20),
+                Image.asset('assets/images/logo/uwp.png', height: 32),
+              ],
+            ),
           ],
         ),
       ),
