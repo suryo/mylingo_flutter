@@ -38,6 +38,7 @@ dependencies:
   audioplayers: ^6.5.0
   shared_preferences: ^2.5.3
   flutter_tts: ^4.2.3
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +67,14 @@ flutter:
     - assets/sounds/tetot.mp3
     - assets/data/
     - assets/images/splash/splash.png
+
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+
+  
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
