@@ -40,7 +40,7 @@ class _LearningScreenState extends State<LearningScreen> {
   }
 
   Future<void> _speak(String text) async {
-     await _flutterTts.setLanguage(_selectedAccent); // dynamic
+    await _flutterTts.setLanguage(_selectedAccent); // dynamic
     await _flutterTts.setPitch(1.0);
     await _flutterTts.setSpeechRate(0.45);
     await _flutterTts.speak(text);
@@ -129,6 +129,16 @@ class _LearningScreenState extends State<LearningScreen> {
     }
   }
 
+  void _prevItem() {
+    if (_currentIndex > 0) {
+      setState(() {
+        _currentIndex--;
+        _recognizedText = '';
+        _hasSpoken = false;
+      });
+    }
+  }
+
   void _nextItem() {
     if (_currentIndex < _items.length - 1) {
       setState(() {
@@ -138,8 +148,13 @@ class _LearningScreenState extends State<LearningScreen> {
       });
     } else {
       _saveScore(_correct, _wrong);
-    _showFinishDialog();
+      _showFinishDialog();
     }
+  }
+
+  void _saveAndGoToHistory() async {
+    await _saveScore(_correct, _wrong);
+    Navigator.pushReplacementNamed(context, '/score-history');
   }
 
   void _showFinishDialog() {
@@ -192,20 +207,16 @@ class _LearningScreenState extends State<LearningScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-
-
-SizedBox(height: 16),
-Row(
-  mainAxisAlignment: MainAxisAlignment.center,
-  children: [
-    Text("✔️ Benar: $_correct", style: TextStyle(fontSize: 16)),
-    SizedBox(width: 16),
-    Text("❌ Salah: $_wrong", style: TextStyle(fontSize: 16)),
-  ],
-),
-SizedBox(height: 16),
-
-
+            SizedBox(height: 16),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text("✔️ Benar: $_correct", style: TextStyle(fontSize: 16)),
+                SizedBox(width: 16),
+                Text("❌ Salah: $_wrong", style: TextStyle(fontSize: 16)),
+              ],
+            ),
+            SizedBox(height: 16),
 
             Text(
               "Ucapkan:",
@@ -214,28 +225,28 @@ SizedBox(height: 16),
             ),
             SizedBox(height: 16),
 
-              Text("Aksen:", style: TextStyle(fontSize: 16)),
-    SizedBox(width: 10),
-    DropdownButton<String>(
-      value: _selectedAccent,
-      items: const [
-        DropdownMenuItem(
-          value: 'en-US',
-          child: Text("🇺🇸 English (US)"),
-        ),
-        DropdownMenuItem(
-          value: 'en-GB',
-          child: Text("🇬🇧 English (UK)"),
-        ),
-      ],
-      onChanged: (value) {
-        if (value != null) {
-          setState(() {
-            _selectedAccent = value;
-          });
-        }
-      },
-    ),
+            Text("Aksen:", style: TextStyle(fontSize: 16)),
+            SizedBox(width: 10),
+            DropdownButton<String>(
+              value: _selectedAccent,
+              items: const [
+                DropdownMenuItem(
+                  value: 'en-US',
+                  child: Text("🇺🇸 English (US)"),
+                ),
+                DropdownMenuItem(
+                  value: 'en-GB',
+                  child: Text("🇬🇧 English (UK)"),
+                ),
+              ],
+              onChanged: (value) {
+                if (value != null) {
+                  setState(() {
+                    _selectedAccent = value;
+                  });
+                }
+              },
+            ),
 
             Text(
               '"$displayText"',
@@ -309,6 +320,35 @@ SizedBox(height: 16),
               ),
               textAlign: TextAlign.center,
             ),
+
+            SizedBox(height: 24),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                _currentIndex < _items.length - 1
+                    ? ElevatedButton.icon(
+                        onPressed: _nextItem,
+                        icon: Icon(Icons.arrow_forward),
+                        label: Text("Berikutnya"),
+                      )
+                    : ElevatedButton.icon(
+                        onPressed: _saveAndGoToHistory,
+                        icon: Icon(Icons.save),
+                        label: Text("Simpan Skor"),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.green,
+                        ),
+                      ),
+                SizedBox(width: 16),
+                ElevatedButton.icon(
+                  onPressed: _currentIndex < _items.length - 1
+                      ? _nextItem
+                      : null,
+                  icon: Icon(Icons.arrow_forward),
+                  label: Text("Berikutnya"),
+                ),
+              ],
+            ),
           ],
         ),
       ),
@@ -316,27 +356,21 @@ SizedBox(height: 16),
   }
 }
 
+Future<void> _saveScore(int correct, int wrong) async {
+  final prefs = await SharedPreferences.getInstance();
+  final now = DateTime.now();
+  final formattedDate = DateFormat('yyyy-MM-dd HH:mm').format(now);
 
-  Future<void> _saveScore(int correct, int wrong) async {
-    final prefs = await SharedPreferences.getInstance();
-    final now = DateTime.now();
-    final formattedDate = DateFormat('yyyy-MM-dd HH:mm').format(now);
+  final newEntry = {'date': formattedDate, 'correct': correct, 'wrong': wrong};
 
-    final newEntry = {
-      'date': formattedDate,
-      'correct': correct,
-      'wrong': wrong,
-    };
+  List<String> existing = prefs.getStringList('scores') ?? [];
+  List<Map<String, dynamic>> parsed = existing
+      .map((e) => Map<String, dynamic>.from(json.decode(e)))
+      .toList();
 
-    List<String> existing = prefs.getStringList('scores') ?? [];
-    List<Map<String, dynamic>> parsed = existing
-    .map((e) => Map<String, dynamic>.from(json.decode(e)))
-    .toList();
+  parsed.insert(0, newEntry);
+  if (parsed.length > 10) parsed = parsed.sublist(0, 10);
 
-
-    parsed.insert(0, newEntry);
-    if (parsed.length > 10) parsed = parsed.sublist(0, 10);
-
-    List<String> toStore = parsed.map((e) => json.encode(e)).toList();
-    await prefs.setStringList('scores', toStore);
-  }
+  List<String> toStore = parsed.map((e) => json.encode(e)).toList();
+  await prefs.setStringList('scores', toStore);
+}
