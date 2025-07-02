@@ -7,6 +7,9 @@ import 'screens/intro_screen.dart';
 import 'screens/choose_level_screen.dart';
 import 'screens/choose_theme_screen.dart';
 import 'screens/learning_screen.dart';
+import 'screens/score_history_screen.dart'; // Tambahkan import
+
+
 
 void main() {
   runApp(MyLingoApp());
@@ -27,6 +30,9 @@ class MyLingoApp extends StatelessWidget {
         '/intro': (context) => IntroScreen(),
         '/choose-theme': (context) => ChooseThemeScreen(),
         '/choose-level': (context) => ChooseLevelScreen(),
+        // Tambahkan route:
+'/score-history': (context) => ScoreHistoryScreen(),
+
       },
       // ⬇️ Untuk route yang butuh parameter
       onGenerateRoute: (settings) {

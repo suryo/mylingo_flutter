@@ -2,9 +2,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:speech_to_text/speech_to_text.dart' as stt;
-import 'package:intl/intl.dart';
-import 'dart:convert';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
@@ -25,8 +22,6 @@ class _LearningScreenState extends State<LearningScreen> {
   final AudioPlayer _audioPlayer = AudioPlayer();
   bool _isListening = false;
   bool _hasSpoken = false;
-  int _correct = 0;
-  int _wrong = 0;
   List<dynamic> _items = [];
   int _currentIndex = 0;
   String _recognizedText = '';
@@ -116,12 +111,10 @@ class _LearningScreenState extends State<LearningScreen> {
           _hasSpoken = true;
 
           if (spoken == target) {
-            setState(() => _correct++);
             _hasSpokenCorrectly = true;
             await _playSound('ding.mp3');
             Future.delayed(Duration(milliseconds: 600), _nextItem);
           } else {
-            setState(() => _wrong++);
             await _playSound('tetot.mp3');
           }
         },
@@ -137,8 +130,7 @@ class _LearningScreenState extends State<LearningScreen> {
         _hasSpoken = false;
       });
     } else {
-      _saveScore(_correct, _wrong);
-    _showFinishDialog();
+      _showFinishDialog();
     }
   }
 
@@ -185,28 +177,13 @@ class _LearningScreenState extends State<LearningScreen> {
     String displayText = item['word'] ?? item['sentence'] ?? item['text'] ?? '';
 
     return Scaffold(
-      appBar: AppBar(title: Text("Training")),
+      appBar: AppBar(title: Text("Latihan Tema")),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-
-
-SizedBox(height: 16),
-Row(
-  mainAxisAlignment: MainAxisAlignment.center,
-  children: [
-    Text("✔️ Benar: $_correct", style: TextStyle(fontSize: 16)),
-    SizedBox(width: 16),
-    Text("❌ Salah: $_wrong", style: TextStyle(fontSize: 16)),
-  ],
-),
-SizedBox(height: 16),
-
-
-
             Text(
               "Ucapkan:",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
@@ -315,28 +292,3 @@ SizedBox(height: 16),
     );
   }
 }
-
-
-  Future<void> _saveScore(int correct, int wrong) async {
-    final prefs = await SharedPreferences.getInstance();
-    final now = DateTime.now();
-    final formattedDate = DateFormat('yyyy-MM-dd HH:mm').format(now);
-
-    final newEntry = {
-      'date': formattedDate,
-      'correct': correct,
-      'wrong': wrong,
-    };
-
-    List<String> existing = prefs.getStringList('scores') ?? [];
-    List<Map<String, dynamic>> parsed = existing
-    .map((e) => Map<String, dynamic>.from(json.decode(e)))
-    .toList();
-
-
-    parsed.insert(0, newEntry);
-    if (parsed.length > 10) parsed = parsed.sublist(0, 10);
-
-    List<String> toStore = parsed.map((e) => json.encode(e)).toList();
-    await prefs.setStringList('scores', toStore);
-  }

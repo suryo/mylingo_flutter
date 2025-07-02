@@ -71,6 +71,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
               Navigator.pushNamed(context, '/choose-level');
             }),
 
+            _buildMenuCard("📊 Riwayat Skor", Icons.bar_chart, () {
+              Navigator.pushNamed(context, '/score-history');
+            }),
+
             SizedBox(height: 40),
             Center(
               child: Text(
