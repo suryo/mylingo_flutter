@@ -1,126 +1,77 @@
-# 📘 MyLingo – Aplikasi Belajar Bahasa Inggris Interaktif
+# MyLingo (Alpha 5)
 
-**MyLingo** adalah aplikasi edukasi berbasis Flutter yang dirancang untuk membantu pengguna — terutama anak-anak — dalam melatih pelafalan bahasa Inggris melalui metode pengenalan suara (*speech recognition*) dan pelafalan sistematis (*phonetic awareness*). Aplikasi ini sepenuhnya **offline**, ringan, dan mudah digunakan.
-
----
-
-## 🎯 Tujuan Aplikasi
-MyLingo bertujuan:
-- Membantu anak-anak dan pemula belajar pelafalan kata dalam bahasa Inggris
-- Memberikan pengalaman belajar interaktif menggunakan suara
-- Menyediakan pembelajaran berdasarkan tema dan level
-- Menjadi solusi edukatif yang bisa digunakan tanpa koneksi internet
+MyLingo adalah aplikasi pembelajaran Bahasa Inggris berbasis Flutter yang menyenangkan dan interaktif, ditujukan khusus untuk anak-anak. Aplikasi ini melatih pelafalan, mengenal kata, dan belajar melalui suara, semuanya **offline** tanpa memerlukan koneksi internet.
 
 ---
 
-## 🔧 Teknologi yang Digunakan
+## ✅ Status: Alpha_5
 
-| Teknologi          | Deskripsi                                     |
-|--------------------|-----------------------------------------------|
-| Flutter            | Framework utama aplikasi mobile               |
-| Dart               | Bahasa pemrograman utama                      |
-| speech_to_text     | Plugin untuk pengenalan suara (Speech Input) |
-| flutter_tts        | Plugin untuk Text-to-Speech (Voice Output)   |
-| audioplayers       | Plugin untuk memainkan suara feedback         |
-| shared_preferences | Untuk menyimpan data lokal pengguna           |
+Versi ini merupakan kelanjutan dari pengembangan sebelumnya dengan berbagai peningkatan fitur.
 
 ---
 
-## 📂 Struktur Fitur & Folder
+## ✨ Fitur Utama Alpha_5
 
-```plaintext
-lib/
-├── main.dart
-├── screens/
-│   ├── splash_screen.dart
-│   ├── register_screen.dart
-│   ├── login_screen.dart
-│   ├── dashboard_screen.dart
-│   ├── intro_screen.dart
-│   ├── choose_level_screen.dart
-│   ├── choose_theme_screen.dart
-│   └── learning_screen.dart
-assets/
-├── data/          # berisi 29 file JSON tema (dengan field word + ipa)
-└── sounds/        # bip.mp3, ding.mp3, tetot.mp3
-```
+### 1. 🔤 Text-to-Speech + IPA
+- Menampilkan simbol IPA (International Phonetic Alphabet)
+- Tombol 🔊 Play untuk mendengarkan pengucapan
+- Pilihan aksen English (US / UK)
 
----
+### 2. ✔️❌ Penilaian Latihan
+- Skor benar dan salah dihitung selama latihan
+- Ditampilkan langsung saat latihan berlangsung
 
-## 📈 Tahapan Pengembangan
+### 3. 💾 Penyimpanan Riwayat Skor
+- Skor terakhir disimpan otomatis (maksimal 10)
+- Tersedia halaman khusus “Riwayat Skor” dengan tanggal dan hasil
 
-### 🔹 1. **Prototype**
-- Fungsi dasar pengenalan kata menggunakan `speech_to_text`
-- Navigasi antar kata secara berurutan
-- Feedback suara benar/salah
+### 4. ⬅️➡️ Navigasi Soal
+- Tombol Prev dan Next untuk berpindah antar soal
+- Jika soal terakhir, muncul tombol “Simpan Skor” yang langsung mengarah ke riwayat
+
+### 5. 🖼️ Logo Powered by
+- Logo `twh` dan `uwp` ditampilkan di semua halaman (splash, dashboard, intro, dll)
 
 ---
 
-### 🔹 2. **Alpha_1**
-Fokus: Struktur dasar aplikasi
-- Splash screen
-- Register dan login screen (data lokal)
-- Auto-route berdasarkan status pengguna
-- Dashboard menu awal
+## 🗂️ Struktur Navigasi
+
+- SplashScreen
+- RegisterPage
+- LoginPage
+- DashboardPage
+- IntroScreen (Pengenalan Aplikasi)
+- ChooseLevelScreen
+- ChooseThemeScreen
+- LearningScreen (utama)
+- ScoreHistoryScreen (riwayat hasil latihan)
 
 ---
 
-### 🔹 3. **Alpha_2**
-Fokus: Navigasi tema dan level
-- Menu: About App, Start Learning, Pilih Level
-- 29 tema ditampilkan dalam bentuk grid
-- Level Beginner/Intermediate/Advanced tersimpan
-- Tampilan informasi user (nama dan level)
+## 🔧 Teknologi & Library
+
+- `Flutter`
+- `shared_preferences` (penyimpanan data lokal)
+- `speech_to_text`
+- `flutter_tts`
+- `intl` (format tanggal)
+- `audioplayers`
 
 ---
 
-### 🔹 4. **Alpha_3**
-Fokus: Halaman Latihan (Learning)
-- Menampilkan kata/frasa dari file JSON
-- Speech-to-text validasi pelafalan
-- Feedback suara `ding` dan `tetot`
-- Navigasi soal dalam satu sesi
+## 🗓️ Timeline Rilis
+
+| Tahap       | Fitur                          |
+|-------------|--------------------------------|
+| Prototype   | Splash, Login, Dashboard dasar |
+| Alpha 1     | Register, Level, Tema, Learn   |
+| Alpha 2     | Intro, Teks + Audio IPA        |
+| Alpha 3     | UI Penyempurnaan Dashboard     |
+| Alpha 4     | Speech-to-text + IPA + TTS     |
+| **Alpha 5** | Penilaian, Riwayat, Navigasi   |
 
 ---
 
-### 🔹 5. **Alpha_4**
-Fokus: Fitur Fonetik dan Suara
-- ✅ Penambahan tampilan **IPA (International Phonetic Alphabet)**
-- ✅ **Text-to-Speech (TTS)** untuk setiap kata/frasa
-- ✅ Pilihan aksen: **English (US)** & **English (UK)**
-- ✅ UI tombol pelafalan dan rekam dalam satu baris
-- ✅ Font dan layout proporsional, ramah anak
+## 👥 Developer Note
 
----
-
-## 📦 Total Tema yang Tersedia (29)
-
-```text
-Alphabet, Animals, Body Parts, Buildings, Clothes, Colors, Daily Activities,
-Days of the Week, Drink, Family, Feelings, Food, Fruits, Holiday, Hobbies,
-Months of the Year, Occupation, Places, Rooms in the House, School Supplies,
-Seasons, Shapes, Sun Earth Moon Stars, Time, Toys, Transportation, Vegetables,
-Weather, Tools
-```
-
----
-
-## 🚀 Status Saat Ini
-
-✅ **Versi: Alpha_4**  
-📱 **Platform: Android (Flutter)**  
-📡 **Mode: Offline, Interaktif, Fonetik**
-
----
-
-## 📌 Rencana Berikutnya (Beta)
-- Statistik dan progress belajar
-- Kuis akhir tema / sertifikat belajar
-- Visualisasi gambar pendukung
-- Sinkronisasi cloud (opsional)
-
----
-
-## 🧑‍💻 Developer
-- Dosen & Fullstack Developer
-- Dibuat dengan semangat edukasi dan literasi digital
+Proyek ini dirancang untuk offline learning, namun ke depan akan disiapkan mode cloud-sync dan leaderboard untuk versi production.
